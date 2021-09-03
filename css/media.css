@@ -1,0 +1,18 @@
+/* Smart Phones */
+
+@media(max-width:767px) {}
+
+
+/* Small Screen */
+
+@media(min-width:768px) and (max-width:991px) {}
+
+
+/* Meduim Screen */
+
+@media(min-width:992px) and (max-width:1199px) {}
+
+
+/* Large Screen */
+
+@media(min-width:1200px) {}
