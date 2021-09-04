@@ -14,7 +14,7 @@ body {
     min-height: 70px;
     line-height: 70px;
 }
-.navbar .logo img { margin-top: 15px; }
+.navbar .logo img { margin-top: 15px; margin-left: 5px;}
 .navbar .links-nav li,
 .navbar .nav-info li { display: inline-block; }
 .navbar .links-nav li ,
@@ -63,6 +63,7 @@ body {
 }
 .menu-navbar .content .nav-info ul li:first-of-type i {
     margin-right: 0;
+    border-right: none;
 }
 .navbar .menu-icon i ,
 .menu-navbar .content .menu-icon i {
@@ -70,6 +71,10 @@ body {
     margin-top: 16px;
     cursor: pointer;
     transition: .3s all ease-in-out;
+    margin-right: 5px;
+}
+@media(max-width:767px) { 
+    
 }
 .menu-navbar .content .menu-icon i:hover {
     color:#30b2d2;
@@ -107,12 +112,13 @@ body {
     width: auto;
     font-size: 16px;
     background-color: #eee;
-
+    border-left: none;
+    padding: 10px 0;
 }
 .menu-navbar .exit-icon {
     position: absolute;
-    top: 30px;
-    right: 50px;
+    top: 20px;
+    right: 30px;
     font-size: 30px;
     cursor: pointer;
 }
