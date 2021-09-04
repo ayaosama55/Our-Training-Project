@@ -9,3 +9,51 @@ body {
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.navbar {
+    min-height: 70px;
+    line-height: 70px;
+}
+.navbar .logo img { margin-top: 15px; }
+.navbar .links-nav li,
+.navbar .nav-info li { display: inline-block; }
+.navbar .links-nav li {
+    margin-left: 30px;
+    cursor: pointer;
+    line-height: 40px;
+}
+.navbar .links-nav li a {
+    color: #444;
+    transition: .2s all ease-in-out;
+}
+.navbar .links-nav li:hover, 
+.navbar .links-nav li.active { border-bottom: 3px solid #30b2d2; }
+.navbar .links-nav li a:hover {
+    text-decoration: none;
+    color: #30b2d2;
+}
+.navbar .nav-info { text-align: right; }
+.navbar .nav-info ul li:first-of-type {
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.navbar .nav-info ul li:first-of-type input{
+    width: 150px;
+    padding: 5px 10px;
+    border: none;
+    border-left: 1px solid #ccc;
+    font-size: 12px;
+}
+.navbar .nav-info ul li:first-of-type i {
+    color: #444;
+    padding: 5px 10px 5px 0;
+    border-right: 1px solid #ccc;
+}
+.navbar .nav-info ul li:last-of-type i {
+    margin-right: 10px;
+    color: #30b2d2;
+    cursor: pointer;    
+}
+@media(min-width:992px) and (max-width:1199px) {
+    .navbar .links-nav li { margin-left: 15px; }
+}
