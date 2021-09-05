@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -9,3 +10,150 @@ body {
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+
+/* Start According */
+
+.according {
+    background-image: url(../img/bgn-testimonials-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -5px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* Start The Section Upper According */
+
+.according .not-according {
+    font-size: 20px;
+}
+
+.according .h1 {
+    font-size: 55px;
+}
+
+.according h2 span {
+    display: block;
+    color: #30b2d2;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.according h2+p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.according hr {
+    height: 2px;
+    width: 60px;
+    background-color: #1c4c93;
+    margin-top: 15px;
+}
+
+
+/* End The Section Upper According */
+
+
+/* Start Main According */
+
+.according-bars {
+    margin-top: 55px;
+}
+
+.according .according-bars .bar {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.according .according-bars .bar .according-head {
+    background-color: rgba(0, 0, 0, .07);
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.according-bars .according-head:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #30b2d2;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.according-bars .according-content {
+    padding: 20px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, .07);
+    display: none;
+}
+
+
+/* End Main According */
+
+
+/* Start According Active*/
+
+.according .according-bars .bar .according-active {
+    background-color: rgb(48, 178, 210);
+    color: #FFF;
+}
+
+.according .according-bars .bar .according-active:after {
+    content: "\e113";
+    color: #FFF;
+    background-color: #207e95;
+    padding: 13px;
+    position: relative;
+    top: -14px;
+    left: 14px;
+    font-size: 17px;
+    -webkit-transition: padding 0.2s ease-in-out;
+    -moz-transition: padding 0.2s ease-in-out;
+    -o-transition: padding 0.2s ease-in-out;
+    transition: padding 0.2s ease-in-out;
+}
+
+
+/* End According Active*/
+
+
+/* Start Media According */
+
+
+/* Smart Phones */
+
+@media(max-width:767px) {
+    .according {
+        background-image: none;
+        background-color: #E8ECEF;
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* Small Screen */
+
+@media(min-width:768px) and (max-width:991px) {
+    .according {
+        background-image: none;
+        background-color: #E8ECEF;
+        padding-bottom: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+/* End Media According */
+
+
+/* End According */
