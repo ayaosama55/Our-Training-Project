@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-
+    // Start According [about.html]  
     $(".according-head").click(function() {
 
         $(this).next().slideToggle(250);
@@ -11,8 +11,8 @@ $(document).ready(function() {
 
         $(".according-content").not($(this).next()).slideUp(250);
 
-
     });
+    // End According [about.html]
 
     $(function() {
         $(".links-nav li a").click(function() {

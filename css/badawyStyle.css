@@ -12,6 +12,9 @@ body {
 }
 
 
+/* Start About us */
+
+
 /* Start According */
 
 .according {
@@ -31,7 +34,7 @@ body {
 }
 
 .according .h1 {
-    font-size: 55px;
+    font-size: 50px;
 }
 
 .according h2 span {
@@ -131,11 +134,19 @@ body {
 
 @media(max-width:767px) {
     .according {
-        background-image: none;
-        background-color: #E8ECEF;
-        padding-bottom: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
+        background-image: none !important;
+        background-color: #E8ECEF !important;
+        padding-bottom: 50px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .according .bar .according-head {
+        font-size: 11px !important;
+    }
+    .according .according-bars .bar .according-active:after {
+        padding: 11px !important;
+        top: -15px !important;
+        left: 15px !important;
     }
 }
 
@@ -144,11 +155,11 @@ body {
 
 @media(min-width:768px) and (max-width:991px) {
     .according {
-        background-image: none;
-        background-color: #E8ECEF;
-        padding-bottom: 50px;
-        padding-left: 15px;
-        padding-right: 15px;
+        background-image: none !important;
+        background-color: #E8ECEF !important;
+        padding-bottom: 50px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
     }
 }
 
@@ -157,3 +168,6 @@ body {
 
 
 /* End According */
+
+
+/* Start About us */
