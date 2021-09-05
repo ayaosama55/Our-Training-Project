@@ -13,6 +13,7 @@ body {
 .navbar {
     min-height: 70px;
     line-height: 70px;
+    margin-bottom: 0;
 }
 .navbar .logo img { margin-top: 15px; margin-left: 5px;}
 .navbar .links-nav li,
@@ -32,7 +33,8 @@ body {
 .navbar .links-nav li:hover, 
 .navbar .links-nav li.active { border-bottom: 3px solid #30b2d2; }
 .navbar .links-nav li a:hover ,
-.menu-navbar .content .links-nav li a:hover {
+.menu-navbar .content .links-nav li a:hover,
+.menu-navbar .content .links-nav li.active a{
     text-decoration: none;
     color: #30b2d2;
 }
@@ -68,7 +70,7 @@ body {
 .navbar .menu-icon i ,
 .menu-navbar .content .menu-icon i {
     font-size: 35px;
-    margin-top: 16px;
+    margin-top: 20px;
     cursor: pointer;
     transition: .3s all ease-in-out;
     margin-right: 5px;
@@ -102,7 +104,7 @@ body {
     transform: translate(-50%, -50%);
 }
 .menu-navbar .content .logo-img img {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .menu-navbar .content .nav-info ul li:first-of-type {
     background-color: #eee;
