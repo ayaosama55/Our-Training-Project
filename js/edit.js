@@ -14,6 +14,7 @@ $(document).ready(function() {
 
     });
 
+    // Manu Nav Bar Scrolling
     $(function() {
         $(".links-nav li a").click(function() {
             $(this).css('text-decoration', 'none');

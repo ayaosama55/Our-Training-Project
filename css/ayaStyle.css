@@ -75,9 +75,6 @@ body {
     transition: .3s all ease-in-out;
     margin-right: 5px;
 }
-@media(max-width:767px) { 
-    
-}
 .menu-navbar .content .menu-icon i:hover {
     color:#30b2d2;
 }
