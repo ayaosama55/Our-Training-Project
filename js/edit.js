@@ -15,16 +15,22 @@ $(document).ready(function() {
     // End According [about.html]
 
     // Manu Nav Bar Scrolling
-    $(function() {
-        $(".links-nav li a").click(function() {
-            $(this).css('text-decoration', 'none');
-        });
-        var ourmenu = $(".menu-navbar");
-        $(".navbar .menu-icon").click(function() {
-            ourmenu.toggleClass("show");
-        });
-        $(".menu-navbar .exit-icon").click(function() {
-            ourmenu.toggleClass("show");
-        })
+    $(".links-nav li a").click(function() {
+        $(this).css('text-decoration', 'none');
+    });
+    var ourmenu = $(".menu-navbar");
+    $(".navbar .menu-icon").click(function() {
+        ourmenu.toggleClass("show");
+    });
+    $(".menu-navbar .exit-icon").click(function() {
+        ourmenu.toggleClass("show");
+    });
+
+    var secrchDiv = $(".OurDoctors .doctor-sec .doctor-info .doctor-img .overlay");
+    $(".OurDoctors .doctor-sec .doctor-info .doctor-img").mouseenter(function() {
+        $(this).children(".overlay").fadeIn();
+    });
+    $(".OurDoctors .doctor-sec .doctor-info .doctor-img").mouseleave(function() {
+        $(this).children(".overlay").fadeOut();
     });
 });
