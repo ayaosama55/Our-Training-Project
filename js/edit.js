@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function() {
 
 
@@ -14,4 +15,17 @@ $(document).ready(function() {
 
     });
 
+=======
+$(function() {
+    $(".links-nav li a").click(function() {
+        $(this).css('text-decoration', 'none');
+    });
+    var ourmenu = $(".menu-navbar");
+    $(".navbar .menu-icon").click(function() {
+        ourmenu.toggleClass("show");
+    });
+    $(".menu-navbar .exit-icon").click(function() {
+        ourmenu.toggleClass("show");
+    })
+>>>>>>> fa01a2296fd789664b3ea6b186c3768149a3856f
 });
