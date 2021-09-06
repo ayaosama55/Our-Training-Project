@@ -36,7 +36,8 @@ body {
 }
 .Latest-news .news {
     position: relative;
-    min-height:350px
+    min-height:350px;
+    margin-bottom: 20px;
 }
 .Latest-news .news .news-img {
     position: absolute;
