@@ -25,7 +25,7 @@ $(document).ready(function() {
     $(".menu-navbar .exit-icon").click(function() {
         ourmenu.toggleClass("show");
     });
-
+    ///////////////////////////////////
     var secrchDiv = $(".OurDoctors .doctor-sec .doctor-info .doctor-img .overlay");
     $(".OurDoctors .doctor-sec .doctor-info .doctor-img").mouseenter(function() {
         $(this).children(".overlay").fadeIn();
