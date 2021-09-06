@@ -33,4 +33,14 @@ $(document).ready(function() {
     $(".OurDoctors .doctor-sec .doctor-info .doctor-img").mouseleave(function() {
         $(this).children(".overlay").fadeOut();
     });
+
+    var azzasection = $(".Latest-news .news");
+
+    azzasection.mouseenter(function() {
+        $(this).children(".news-info").slideDown();
+    });
+
+    azzasection.mouseleave(function() {
+        $(this).children(".news-info").slideUp();
+    });
 });

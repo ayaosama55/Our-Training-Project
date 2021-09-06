@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    height:6000px
 }
 * {
     margin: 0;
@@ -8,4 +9,77 @@ body {
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.Latest-news {
+    margin: 50px 0;
+}
+.Latest-news .content p {
+    font-size:22px;
+    margin-bottom: 15px;
+}
+.Latest-news .content hr {
+    width:100px;
+    background-color:#1C4C93;
+    height: 2px;
+    margin: 0 auto;
+}
+.Latest-news .content h2 {
+    font-weight: bold;
+    font-size:45px;
+    margin-bottom: 20px;
+}
+.Latest-news .content h2 span{
+    display:block;
+    color: #30B2D2;
+    font-size: 40px;
+}
+.Latest-news .news {
+    position: relative;
+    min-height:350px
+}
+.Latest-news .news .news-img {
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+.Latest-news .news .news-img img {
+    height: 100%;
+    width: 100%;
+}
+.Latest-news .news .news-info {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.Latest-news .news .news-info .cont {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Latest-news .news .news-info .cont > i {
+    font-size:40px;
+    color: #30B2D2;
+    display: block;
+    margin: 0 auto 10px; 
+}
+.Latest-news .news .news-info .cont span {
+    color: #444;
+    font-size:14px;
+    margin: 15px 0;
+}
+.Latest-news .news .news-info .cont hr {
+    background-color: #1C4C93;
+    width: 30px;
+    height:2px;
+    margin:10px auto;
+}
+.Latest-news .news .news-info .cont ul li {
+    margin-bottom: 4px;
+}
+.Latest-news .news .news-info .cont ul li i {
+    margin-right: 5px;
 }
