@@ -12,6 +12,139 @@ body {
 }
 
 
+/* Start Home */
+
+
+/* Start offers */
+
+.offesrs {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* Start header offers */
+
+.offesrs .offer-head {
+    margin-bottom: 70px;
+}
+
+.offesrs .offer-head hr {
+    width: 100px;
+    background-color: #1C4C93;
+    height: 2px;
+    margin: 0 auto;
+}
+
+.offesrs .offer-head .with-great-price {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.offesrs .offer-head .with-great-price span {
+    display: block;
+    color: #30b2d2;
+    font-weight: bold;
+}
+
+
+/* End header offers */
+
+
+/* Start price-box */
+
+.offesrs .price-box {
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.offesrs .price-box .head-price-box {
+    background-color: #30b2d2;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.offesrs .price-box .head-price-box hr {
+    width: 50px;
+    height: 2px;
+}
+
+.offesrs .price-box .head-price-box h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.offesrs .price-box .head-price-box .best-offer {
+    position: relative;
+    background-color: #1C4C93;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    width: 70px;
+    top: -52px;
+    left: 240px;
+    margin-bottom: -71px;
+}
+
+.offesrs .price-box ul li {
+    padding: 15px;
+    background-color: rgba(204, 204, 204, .07);
+    border-bottom: 2px solid rgba(0, 0, 0, .07);
+    border-left: 2px solid rgba(0, 0, 0, .07);
+    border-right: 2px solid rgba(0, 0, 0, .07);
+}
+
+.offesrs .price-box ul .dif {
+    background-color: rgba(0, 0, 0, .07);
+}
+
+.offesrs .price-box ul li span {
+    float: right;
+}
+
+.offesrs .price-box .order-btn {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 33.333333333%;
+}
+
+.offesrs .price-box .btn1 {
+    border: 1px solid #000;
+    background-color: #FFF;
+}
+
+.offesrs .price-box .btn1:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+@media(max-width:767px) {
+    .offesrs .price-box .head-price-box .best-offer {
+        top: -52px;
+        left: 321px;
+        margin-bottom: -65px;
+    }
+}
+
+
+/* End price-box */
+
+
+/* End offers */
+
+
+/* End Home */
+
+
+/********************************************************************/
+
+
 /* Start About us */
 
 
