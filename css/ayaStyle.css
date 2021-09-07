@@ -9,7 +9,6 @@ body {
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
-
 .navbar {
     min-height: 70px;
     line-height: 70px;
@@ -75,9 +74,6 @@ body {
     transition: .3s all ease-in-out;
     margin-right: 5px;
 }
-@media(max-width:767px) { 
-    
-}
 .menu-navbar .content .menu-icon i:hover {
     color:#30b2d2;
 }
@@ -127,3 +123,88 @@ body {
 @media(min-width:992px) and (max-width:1199px) {
     .navbar .links-nav li { margin-left: 15px; }
 }
+/* start section Our Doctors */
+.OurDoctors {
+    margin: 50px 0;
+}
+.OurDoctors .content p {
+    margin-bottom: 15px;
+}
+.OurDoctors .content hr { 
+    width: 70px;
+    background-color: #1c4c93;
+    height: 2px;
+    margin: 0 auto;
+}
+.OurDoctors .content h2 { 
+    font-size:50px;
+    font-weight:bold;
+    color: #30b2d2;
+    margin-bottom: 40px;
+}
+.OurDoctors .content h2 span {
+    display: block;
+    color: #000;
+    font-weight: normal;
+}
+.OurDoctors .doctor-sec .doctor-info { 
+    margin-bottom: 20px;
+}
+.OurDoctors .doctor-sec .doctor-info .doctor-img {
+    position: relative;
+}
+.OurDoctors .doctor-sec .doctor-info .doctor-img .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:rgba(255,255,255,0.8);
+    text-align:center;
+    display: none;
+}
+.OurDoctors .doctor-sec .doctor-info .doctor-img .overlay i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #30b2d2;
+    font-size:40px;
+}
+.OurDoctors .doctor-sec .doctor-info .doctor-img.green { border-bottom: 6px solid #82be42; }
+.OurDoctors .doctor-sec .doctor-info .doctor-img.bebeblue { border-bottom: 6px solid #2CB2B7; }
+.OurDoctors .doctor-sec .doctor-info .doctor-img.blue { border-bottom: 6px solid #1C4C93; }
+.OurDoctors .doctor-sec .doctor-info .info {
+    background-color: #eee;
+    padding:15px;
+    min-height: 260px;
+}
+.OurDoctors .doctor-sec .doctor-info .info span {
+    margin-bottom: 7px;
+    font-size:16px;
+}
+.OurDoctors .doctor-sec .doctor-info .info hr {
+    width:60px;
+    height: 1px;
+    background-color: #1c4c93;
+}
+.OurDoctors .doctor-sec .doctor-info .info h3 {
+    font-weight: bold;
+    font-size:20px
+}
+.OurDoctors .doctor-sec .doctor-info .info p {
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.OurDoctors .doctor-sec .doctor-info .info ul { display: inline;}
+.OurDoctors .doctor-sec .doctor-info .info ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 7px;
+}
+.OurDoctors .doctor-sec .doctor-info .info > a { 
+    float: right;
+    margin-right:20px;
+}
+.OurDoctors .doctor-sec .doctor-info .info > a:hover { text-decoration: none; }

@@ -14,16 +14,33 @@ $(document).ready(function() {
     });
     // End According [about.html]
 
-    $(function() {
-        $(".links-nav li a").click(function() {
-            $(this).css('text-decoration', 'none');
-        });
-        var ourmenu = $(".menu-navbar");
-        $(".navbar .menu-icon").click(function() {
-            ourmenu.toggleClass("show");
-        });
-        $(".menu-navbar .exit-icon").click(function() {
-            ourmenu.toggleClass("show");
-        })
+    // Manu Nav Bar Scrolling
+    $(".links-nav li a").click(function() {
+        $(this).css('text-decoration', 'none');
+    });
+    var ourmenu = $(".menu-navbar");
+    $(".navbar .menu-icon").click(function() {
+        ourmenu.toggleClass("show");
+    });
+    $(".menu-navbar .exit-icon").click(function() {
+        ourmenu.toggleClass("show");
+    });
+    ///////////////////////////////////
+    var secrchDiv = $(".OurDoctors .doctor-sec .doctor-info .doctor-img .overlay");
+    $(".OurDoctors .doctor-sec .doctor-info .doctor-img").mouseenter(function() {
+        $(this).children(".overlay").fadeIn();
+    });
+    $(".OurDoctors .doctor-sec .doctor-info .doctor-img").mouseleave(function() {
+        $(this).children(".overlay").fadeOut();
+    });
+
+    var azzasection = $(".Latest-news .news");
+
+    azzasection.mouseenter(function() {
+        $(this).children(".news-info").slideDown();
+    });
+
+    azzasection.mouseleave(function() {
+        $(this).children(".news-info").slideUp();
     });
 });
