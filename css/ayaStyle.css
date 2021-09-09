@@ -215,11 +215,17 @@ body {
 .doc-about-aya { 
     padding-top: 140px;
 }
-@media (max-width:991px) {
+@media(min-width:768px) and (max-width:991px) {
     .doc-about-aya { 
-        padding-top: 190px;
+        padding-top: 180px;
     }
 }
+@media(max-width:767px) {
+    .doc-about-aya { 
+        padding-top: 210px;
+    }
+}
+
 /* end section our doctor */
 
 /* start section numbers */
@@ -330,5 +336,34 @@ body {
 @media (max-width:991px) {
     .numbers-aya .looking-forward-aya {
         width: 90%;
+    }
+}
+@media(max-width:767px) {
+    .numbers-aya .looking-forward-aya .look-content p { 
+        line-height:1;
+        letter-spacing:.4px
+    }
+    .numbers-aya .looking-forward-aya .look-sign p { 
+        line-height:1.1
+    }
+    .numbers-aya .looking-forward-aya .look-content h3 { 
+        margin-top: 0;
+        font-size: 25px;
+    }
+    .numbers-aya .looking-forward-aya .look-sign input[type="email"] {
+        display: block;
+        width: 100%;
+        font-size:15px
+    }
+    .numbers-aya .looking-forward-aya .look-sign input[type="submit"] {
+        margin: 5px auto 0;
+    }
+    .numbers-aya .content h2 {
+        font-size: 40px;
+    }
+    .numbers-aya .content p.para {
+        font-size: 17px;
+        line-height:1.2;
+        margin-bottom: 15px
     }
 }
