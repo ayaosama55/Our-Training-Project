@@ -212,6 +212,14 @@ body {
     margin-right:20px;
 }
 .OurDoctors .doctor-sec .doctor-info .info > a:hover { text-decoration: none; }
+.doc-about-aya { 
+    padding-top: 140px;
+}
+@media (max-width:991px) {
+    .doc-about-aya { 
+        padding-top: 190px;
+    }
+}
 /* end section our doctor */
 
 /* start section numbers */
@@ -220,7 +228,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 50px 0 100px;
+    padding: 50px 0 90px;
+    position: relative;
 }
 .numbers-aya .content h2 span { display: inline; }
 .numbers-aya .content p:last-of-type { 
@@ -235,7 +244,7 @@ body {
 .numbers-aya .row .num-content {
     padding: 20px;
 }
-.numbers-aya .row .col-md-3 { margin-bottom: 30px; max-height: 250px;}
+.numbers-aya .row .col-md-3 { margin-bottom: 30px; max-height: 280px;}
 .numbers-aya .row .col-md-3:not(:last-of-type) {
     border-right: 2px solid rgba(83, 67, 67, 0.1);
 }
@@ -265,4 +274,61 @@ body {
     line-height: 1.6;
     letter-spacing: .7px;
     color: #444;
+}
+.numbers-aya .looking-forward-aya {
+    position: absolute;
+    background: linear-gradient(to right, rgba(130,190,66,1) 0%,rgba(48,178,210,1) 50%,rgba(28,76,147,1) 100%); margin-right: 0; margin-left: 0;
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius:5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    color: #fff;
+}
+.numbers-aya .looking-forward-aya .look-content {
+    margin-bottom: 15px;
+}
+.numbers-aya .looking-forward-aya .look-content h3 { font-size:30px }
+.numbers-aya .looking-forward-aya .look-content hr { 
+    width:70px;
+    background-color: #1c4c93;
+    height: 2px;
+    border-top: none;
+    margin: 10px 0;
+}
+.numbers-aya .looking-forward-aya .look-content p { 
+    font-size:17px;
+    line-height:1.6;
+    letter-spacing: .7px;
+}
+.numbers-aya .looking-forward-aya .look-sign p { margin-top: 10px}
+.numbers-aya .looking-forward-aya .look-sign input[type="email"] {
+    background-color: rgba(255,255,255,.075);
+    border: none;
+    padding:10px;
+    font-size:17px;
+    width: 70%;
+}
+.numbers-aya .looking-forward-aya .look-sign input[type="submit"] {
+    background: #30b2d2;
+    border: none;
+    padding: 10px;
+    font-size: 17px;
+    transition: .3s all ease-in-out;
+    margin-top: 10px;
+}
+.numbers-aya .looking-forward-aya .look-sign input[type="submit"]:hover {
+    background-color: #207e95;
+    margin-top: 10px;
+}
+@media(min-width:992px) and (max-width:1199px) {
+    .numbers-aya .looking-forward-aya {
+        width: 80%;
+    }
+}
+@media (max-width:991px) {
+    .numbers-aya .looking-forward-aya {
+        width: 90%;
+    }
 }
