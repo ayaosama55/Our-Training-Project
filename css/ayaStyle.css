@@ -127,22 +127,26 @@ body {
 .OurDoctors {
     margin: 50px 0;
 }
-.OurDoctors .content p {
+.OurDoctors .content p:first-of-type,
+.numbers-aya .content p:first-of-type  {
     margin-bottom: 15px;
 }
-.OurDoctors .content hr { 
+.OurDoctors .content hr ,
+.numbers-aya .content hr{ 
     width: 70px;
     background-color: #1c4c93;
     height: 2px;
     margin: 0 auto;
 }
-.OurDoctors .content h2 { 
+.OurDoctors .content h2,
+.numbers-aya .content h2 { 
     font-size:50px;
     font-weight:bold;
     color: #30b2d2;
     margin-bottom: 40px;
 }
-.OurDoctors .content h2 span {
+.OurDoctors .content h2 span,
+.numbers-aya .content h2 span {
     display: block;
     color: #000;
     font-weight: normal;
@@ -208,3 +212,57 @@ body {
     margin-right:20px;
 }
 .OurDoctors .doctor-sec .doctor-info .info > a:hover { text-decoration: none; }
+/* end section our doctor */
+
+/* start section numbers */
+.numbers-aya {
+    background-image: url("../img/bgn-testimonials-03\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 50px 0 100px;
+}
+.numbers-aya .content h2 span { display: inline; }
+.numbers-aya .content p:last-of-type { 
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.numbers-aya .content h2 {
+    margin-bottom: 20px;
+}
+.numbers-aya .row .num-content {
+    padding: 20px;
+}
+.numbers-aya .row .col-md-3 { margin-bottom: 30px; max-height: 250px;}
+.numbers-aya .row .col-md-3:not(:last-of-type) {
+    border-right: 2px solid rgba(83, 67, 67, 0.1);
+}
+.numbers-aya .num-content i {
+    display: block;
+    font-size: 55px;
+    color: #1c4c93;
+    margin-bottom: 15px;
+}
+.numbers-aya .num-content span.num {
+    font-size: 35px;
+    color: #444;
+}
+.numbers-aya .num-content h4 {
+    font-size:14px;
+    font-weight: 700;
+    color: #222;
+}
+.numbers-aya .num-content hr {
+    background-color: #1c4c93;
+    height:2px;
+    width:50px;
+    margin: 10px auto;
+    border-top: none;
+}
+.numbers-aya .num-content p {
+    line-height: 1.6;
+    letter-spacing: .7px;
+    color: #444;
+}

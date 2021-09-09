@@ -43,4 +43,6 @@ $(document).ready(function() {
     azzasection.mouseleave(function() {
         $(this).children(".news-info").slideUp();
     });
+    // count down numbers
+    $(".num-progress").counterUp({time:700});
 });
