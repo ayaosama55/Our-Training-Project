@@ -43,6 +43,21 @@ $(document).ready(function() {
     azzasection.mouseleave(function() {
         $(this).children(".news-info").slideUp();
     });
-    // count down numbers
-    $(".num-progress").counterUp({time:700});
+
+    $(".our-services-aya .services-content .service .media-slide").click(function() {
+        $(this).parent().next().slideToggle();
+        if ($(this).children("i").data("arrow") === "down") {
+            $(this).children("i").data("arrow", "up");
+            $(this).children("i").removeClass("fa-angle-down").addClass("fa-angle-up");
+        } else {
+            $(this).children("i").data("arrow", "down");
+            $(this).children("i").removeClass("fa-angle-up").addClass("fa-angle-down");
+        }
+    });
+
+    $(".loadmore-service").click(function() {
+        $(this).hide();
+        $(this).next().removeClass("hide");
+    });
+
 });
