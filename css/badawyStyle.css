@@ -1,11 +1,10 @@
-
-
 /* Start Home */
 
 
 /* Start offers */
 
 .offesrs {
+    margin-top: 200px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -113,9 +112,12 @@
 }
 
 @media(max-width:767px) {
+    .offesrs {
+        margin-top: 300px;
+    }
     .offesrs .price-box .head-price-box .best-offer {
-        top: -52px;
-        left: 321px;
+        top: -45px;
+        left: 250px;
         margin-bottom: -65px;
     }
 }
