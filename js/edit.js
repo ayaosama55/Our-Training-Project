@@ -53,6 +53,7 @@ $(document).ready(function() {
             $(this).children("i").data("arrow", "down");
             $(this).children("i").removeClass("fa-angle-up").addClass("fa-angle-down");
         }
+        $(".our-services-aya .services-content .serv-cont").not($(this).parent().next()).slideUp();
     });
 
     $(".loadmore-service").click(function() {
