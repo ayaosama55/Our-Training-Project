@@ -304,4 +304,59 @@
     }
     /* End Media According */
     /* End According */
-    /* Start About us */
+    /* End About us */
+    /* Strat Contact us */
+    
+    .contact-us {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .contact-us .contact-header {
+        width: 60%;
+    }
+    
+    .contact-us .contact-header h2 {
+        font-size: 50px;
+        letter-spacing: 1px;
+    }
+    
+    .contact-us .contact-header hr {
+        width: 60px;
+        background-color: #1C4C93;
+        height: 2px;
+    }
+    
+    .contact-us .contact-header h2 span {
+        color: #30b2d2;
+        font-weight: 1000;
+    }
+    /* Start Form */
+    
+    .contact-us .contact-form {
+        margin-top: 20px;
+        padding: 20px;
+    }
+    
+    .contact-us .contact-form input,
+    .contact-us .contact-form textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100%;
+        display: block;
+        background-color: #dedddd;
+        border: 2px solid #CCC;
+        font-size: 16px;
+    }
+    
+    .contact-us .contact-form textarea {
+        height: 200px;
+    }
+    
+    .contact-us .contact-form .btn-form {
+        padding: 10px 20px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    /* End Form */
+    /* End Contact us */
