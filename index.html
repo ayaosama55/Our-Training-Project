@@ -15,15 +15,28 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/global.css" />
-    <link rel="stylesheet" href="css/ayaStyle.css">
-    <link rel="stylesheet" href="css/azzaStyle.css">
-    <link rel="stylesheet" href="css/badawyStyle.css">
     <link rel="stylesheet" href="css/esraaStyle.css">
     <link rel="stylesheet" href="css/engyStyle.css">
+    <link rel="stylesheet" href="css/azzaStyle.css">
+    <link rel="stylesheet" href="css/badawyStyle.css">
+    <link rel="stylesheet" href="css/ayaStyle.css">
     <!--[if lt IE 9]>
         <script src="js/html5shiv.min.js"></script>
         <script src="js/respond.min.js"></script>
     <![endif]-->
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapProp = {
+                center: new google.maps.LatLng(12.81222, 45.02917),
+                zoom: 6,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("gMap"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 
 </head>
 
@@ -105,7 +118,74 @@
     <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <!-- Start Slider [ Badawy ] -->
-
+    <section id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="img/bgn-slider-01.jpg" alt="bgn-slider-01">
+                <div class="carousel-caption">
+                    <div class="row text-center">
+                        <div class="content-slider col col-md-6">
+                            <p class="lead"> For a clearer tomorrow </p>
+                            <h1 class="slider-heading">Bring their world<span> into focus</span></h1>
+                            <hr>
+                            <p class="lead">Vision screenings are not comprehensive eye exams. Screenings usually take only a few minutes and are often performed by volunteers who are not eye care professionals.
+                            </p>
+                            <button class="btn btn-primary">Discover More</button>
+                            <button class="btn btn-info">Book an Appointment</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/bgn-slider-02.jpg" alt="bgn-slider-02">
+                <div class="carousel-caption">
+                    <div class="row">
+                        <div class="content-slider col col-md-offset-6">
+                            <p class="lead"> Enhancing your vision
+                            </p>
+                            <h1 class="slider-heading">Choosing the<span> right glasses</span></h1>
+                            <hr>
+                            <p class="lead">A good optician can help you use these guidelines to choose your new eyeglasses. You can however choose any model you’d like from Medicare shop too.</p>
+                            <button class="btn btn-primary">Start shopping</button>
+                            <button class="btn btn-info">Glasses brands</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/bgn-slider-03.jpg" alt="bgn-slider-03">
+                <div class="carousel-caption">
+                    <div class="row">
+                        <div class="content-slider col col-md-offset-6">
+                            <p class="lead">Test your eyes</p>
+                            <h1 class="slider-heading">Vision tests<span> quick and easy</span></h1>
+                            <hr>
+                            <p class="lead">Specific types of exam and testing procedures are described below so you have a better understanding of what to expect at your next visit to your optometrist or ophthalmologist.</p>
+                            <button class="btn btn-primary">Book a Vision test</button>
+                            <button class="btn btn-info">View our prices</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            ...
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </section>
     <!-- End Slider [ Badawy ] -->
 
     <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -202,224 +282,244 @@
     <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <!-- Start Section Patient testimonials [ Engy ] -->
-    <div class="home">
+    <div class="home-engy">
         <div class="container">
-            
             <div class="testimonials">
-            <div class="engy-a">
-                <i class="fa fa-eye"></i>
-            </div><br><br>
-            <div class="engy-b">
-                <h5>A good word means a lot</h5>
-            </div>
-            <br>
-            <div class="engy-c">
-                <p0>Patient<strong > testimonials </strong></p0><br><br><br><br>
-            </div>
-            <div class="engy-d">
-                <p1>
-                    It’s helpful to have a provider who is<br> thorough both in the office visit and the<br> follow up contact. I’ve already recomended <br>this place to friends and family.
-                </p1>
-                <br>
-                <p2> Dawson Myers </p2>
-            </div>
-            <div class="engy-e">
-                <p3>
-                    Not only was I having problems with my <br>vision but my eyes were also itchy,<br> irritated and red. They treated for dry eyes<br> and my eyes feel great!
-                </p3>
-                <br>
-                <p4>Alton Shelton</p4>
-            </div>
-            <div class="engy-f">
-                <p5>
-                    The hours are great, and I didn’t have to <br>wait long, what I also like about your office<br> is that you are up-to-date with state-of<br> the-art equipment.
-                </p5>
-                <br>
-            <p6>Gisselle Alberts</p6>
-            </div>
-            </div>
-
-
-
-
-
-        </div>
-    </div>
-
-
-    <!-- End Section Patient testimonials [ Engy ] -->
-
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-    <!-- Start Section special offers [ Badawy ] -->
-    <section class="offesrs">
-        <div class="container text-center">
-            <div class="offer-head">
-                <p class="lead">Your health is most important</p>
-                <hr>
-                <h2 class="with-great-price"> <span>With great prices</span> & special offers </h2>
-            </div>
-            <div class="row">
-                <div class="col col-md-4">
-                    <div class="price-box text-left">
-                        <div class="head-price-box">
-                            <p>Find your glasses</p>
-                            <hr>
-                            <h2 class="center-block h1">$149</h2>
-                            <p>Branded glasses & examination</p>
-                        </div>
-                        <ul class="list-unstyled">
-                            <li class="dif">Professional examination <span>$100</span></li>
-                            <li> Glasses tryout <span>$20</span> </li>
-                            <li class="dif"> Choose glasses brand <span>$40-120</span></li>
-                            <li> Glasses box & wiping cloth <span>$10</span></li>
-                            <li class="dif"> Free shipping <span>$15</span></li>
-                        </ul>
-                        <button href="#" class="order-btn btn1 btn btn-white">Order Now</button>
-                    </div>
+                <div class="engy-a">
+                    <i class="fa fa-eye"></i>
+                </div><br>
+                <div class="engy-b">
+                    <h5>A good word means a lot</h5>
                 </div>
-                <div class="col col-md-4">
-                    <div class="price-box text-left">
-                        <div class="head-price-box">
-                            <div class="best-offer">Best Offer</div>
-                            <p>Contact Lenses</p>
-                            <hr>
-                            <h2 class="center-block h1">$189</h2>
-                            <p>Professional examination & lenses</p>
-                        </div>
-                        <ul class="list-unstyled">
-                            <li class="dif">Professional examination <span>$100</span></li>
-                            <li> Glasses tryout <span>$50</span> </li>
-                            <li class="dif"> Choose glasses brand <span>$50-150</span></li>
-                            <li> Glasses box & wiping cloth <span>$15</span></li>
-                            <li class="dif"> Free shipping <span>$15</span></li>
-                        </ul>
-                        <button href="#" class="order-btn btn btn-info">Order Now</button>
-                    </div>
+                <div class="engy-c">
+                    <p0>Patient<strong> testimonials </strong></p0><br>
                 </div>
-                <div class="col col-md-4">
-                    <div class="price-box text-left">
-                        <div class="head-price-box">
-                            <p>Lasik surgery</p>
-                            <hr>
-                            <h2 class="center-block h1">$449</h2>
-                            <p>Your vision permanently healed</p>
-                        </div>
-                        <ul class="list-unstyled">
-                            <li class="dif">Professional examination <span>$100</span></li>
-                            <li> Glasses tryout <span>$50</span> </li>
-                            <li class="dif"> Choose glasses brand <span>$250</span></li>
-                            <li> Glasses box & wiping cloth <span>$75</span></li>
-                            <li class="dif"> Free shipping <span>$100</span></li>
-                        </ul>
-                        <button href="#" class="order-btn btn btn-primary">Order Now</button>
-                    </div>
+                <div class="engy-d">
+                    <p1>
+                        It’s helpful to have a provider who is<br> thorough both in the office visit and the<br> follow up contact. I’ve already recomended <br>this place to friends and family.
+                    </p1>
+                    <br>
+                    <p2> Dawson Myers </p2>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- End Section special offers [ Badawy ] -->
-
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-    <!-- Start Section Get In Touch And Map [ Engy ] -->
-
-
-    <!-- End Section Get In Touch And Map [ Engy ] -->
-
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-    <!-- Start Section Latest News [ Azza ] -->
-    <section class="Latest-news">
-        <div class="container">
-            <div class="row">
-                <div class="content text-center">
-                    <p class="lead">What’s going on</p>
-                    <hr />
-                    <h2 class="h1"><span>Latest news</span>from Medicare</h2>
+                <div class="engy-e">
+                    <p3>
+                        Not only was I having problems with my <br>vision but my eyes were also itchy,<br> irritated and red. They treated for dry eyes<br> and my eyes feel great!
+                    </p3>
+                    <br>
+                    <p4>Alton Shelton</p4>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="news">
-
-                        <div class="news-img">
-                            <img src="img/img-blog-post-01-540x540.jpg" class="img-responsive" />
-                        </div>
-
-                        <div class="news-info">
-                            <div class="cont text-center">
-                                <i class="fa fa-search"></i>
-                                <span>Examination for kids</span>
-                                <hr />
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-history"></i>March 8, 2018</li>
-                                    <li><i class="fa fa-user"></i>by Angela Brawn</li>
-                                    <li><i class="fa fa-comments"></i>2</li>
-                                </ul>
+                <div class="engy-f">
+                    <p5>
+                        The hours are great, and I didn’t have to <br>wait long, what I also like about your office<br> is that you are up-to-date with state-of<br> the-art equipment.
+                    </p5>
+                    <br>
+                    <p6>Gisselle Alberts</p6>
+                    <div class="forward">
+                        <div class="row-1">
+                            <div class="col-md-6 col-sm-13">
+                                <div class="content">
+                                    <h3>Looking forward</h3>
+                                    <hr />
+                                    <p7 class="lead1">Subscribe to Medicare newsletter now to get great discounts</p7>
+                                </div>
                             </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="news">
-                        <div class="news-img">
-                            <img src="img/img-blog-post-02-540x540.jpg" class="img-responsive" />
-                        </div>
-                        <div class="news-info">
-                            <div class="cont text-center">
-                                <i class="fa fa-search"></i>
-                                <span>Examination for kids</span>
-                                <hr />
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-history"></i>March 8, 2018</li>
-                                    <li><i class="fa fa-user"></i>by Angela Brawn</li>
-                                    <li><i class="fa fa-comments"></i>2</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
-                    <div class="news">
-                        <div class="news-img">
-                            <img src="img/img-blog-post-03-540x540.jpg" class="img-responsive" />
-                        </div>
-                        <div class="news-info">
-                            <div class="cont text-center">
-                                <i class="fa fa-search"></i>
-                                <span>Examination for kids</span>
-                                <hr />
-                                <ul class="list-unstyled">
-                                    <li><i class="fa fa-history"></i>March 8, 2018</li>
-                                    <li><i class="fa fa-user"></i>by Angela Brawn</li>
-                                    <li><i class="fa fa-comments"></i>2</li>
-                                </ul>
+                            <div class="col-md-6 col-sm-13">
+                                <div class="sign">
+                                    <p8>Sign up for Medicare newsletter to receive all the new offers and discounts from Medicare clinic. Discounts are only valid four our newsletter subscribers.</p8>
+                                    <input type="email" placeholder="Type in your email address" />
+                                    <input type="submit" value="Subscribe" />
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+            <!-- End Section Patient testimonials [ Engy ] -->
 
-    <!-- End Section Latest News [ Azza ] -->
+            <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+            <!-- Start Section special offers [ Badawy ] -->
+            <section class="offesrs">
+                <div class="container text-center">
+                    <div class="offer-head">
+                        <p class="lead">Your health is most important</p>
+                        <hr>
+                        <h2 class="with-great-price"> <span>With great prices</span> & special offers </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col col-md-4">
+                            <div class="price-box text-left">
+                                <div class="head-price-box">
+                                    <p>Find your glasses</p>
+                                    <hr>
+                                    <h2 class="center-block h1">$149</h2>
+                                    <p>Branded glasses & examination</p>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li class="dif">Professional examination <span>$100</span></li>
+                                    <li> Glasses tryout <span>$20</span> </li>
+                                    <li class="dif"> Choose glasses brand <span>$40-120</span></li>
+                                    <li> Glasses box & wiping cloth <span>$10</span></li>
+                                    <li class="dif"> Free shipping <span>$15</span></li>
+                                </ul>
+                                <button href="#" class="order-btn btn btn1">Order Now</button>
+                            </div>
+                        </div>
+                        <div class="col col-md-4">
+                            <div class="price-box text-left">
+                                <div class="head-price-box">
+                                    <div class="best-offer">Best Offer</div>
+                                    <p>Contact Lenses</p>
+                                    <hr>
+                                    <h2 class="center-block h1">$189</h2>
+                                    <p>Professional examination & lenses</p>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li class="dif">Professional examination <span>$100</span></li>
+                                    <li> Glasses tryout <span>$50</span> </li>
+                                    <li class="dif"> Choose glasses brand <span>$50-150</span></li>
+                                    <li> Glasses box & wiping cloth <span>$15</span></li>
+                                    <li class="dif"> Free shipping <span>$15</span></li>
+                                </ul>
+                                <a href="#" class="order-btn btn btn-info">Order Now</a>
+                            </div>
+                        </div>
+                        <div class="col col-md-4">
+                            <div class="price-box text-left">
+                                <div class="head-price-box">
+                                    <p>Lasik surgery</p>
+                                    <hr>
+                                    <h2 class="center-block h1">$449</h2>
+                                    <p>Your vision permanently healed</p>
+                                </div>
+                                <ul class="list-unstyled">
+                                    <li class="dif">Professional examination <span>$100</span></li>
+                                    <li> Glasses tryout <span>$50</span> </li>
+                                    <li class="dif"> Choose glasses brand <span>$250</span></li>
+                                    <li> Glasses box & wiping cloth <span>$75</span></li>
+                                    <li class="dif"> Free shipping <span>$100</span></li>
+                                </ul>
+                                <a href="#" class="order-btn btn btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <!-- Start Footer [ Esraa ] -->
+            <!-- End Section special offers [ Badawy ] -->
+
+            <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+            <!-- Start Section Get In Touch And Map [ Engy ] -->
+            <div class="map">
+                <div class="map-a">
+                    <div>
+                        <p10>Get in <strong>touch</strong> </p10><br>
+                        <p11>Come and visit our quarters or simply send us an email anytime you want.<br> We are open to all suggestions from our audience.</p11>
+                    </div>
+                    <div><i class="fa fa-hospital"></i></div>
+                </div>
+
+                <div id="gMap"></div>
+
+            </div>
 
 
-    <!-- End Footer [ Esraa ] -->
 
-    <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
-    <script src="js/jquery-1.11.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/edit.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script>
-        new WOW().init();
-    </script>
+            <!-- End Section Get In Touch And Map [ Engy ] -->
+
+            <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+            <!-- Start Section Latest News [ Azza ] -->
+            <section class="Latest-news">
+                <div class="container">
+                    <div class="row">
+                        <div class="content text-center">
+                            <p class="lead">What’s going on</p>
+                            <hr />
+                            <h2 class="h1"><span>Latest news</span>from Medicare</h2>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="news">
+
+                                <div class="news-img">
+                                    <img src="img/img-blog-post-01-540x540.jpg" class="img-responsive" />
+                                </div>
+
+                                <div class="news-info">
+                                    <div class="cont text-center">
+                                        <i class="fa fa-search"></i>
+                                        <span>Examination for kids</span>
+                                        <hr />
+                                        <ul class="list-unstyled">
+                                            <li><i class="fa fa-history"></i>March 8, 2018</li>
+                                            <li><i class="fa fa-user"></i>by Angela Brawn</li>
+                                            <li><i class="fa fa-comments"></i>2</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="news">
+                                <div class="news-img">
+                                    <img src="img/img-blog-post-02-540x540.jpg" class="img-responsive" />
+                                </div>
+                                <div class="news-info">
+                                    <div class="cont text-center">
+                                        <i class="fa fa-search"></i>
+                                        <span>Examination for kids</span>
+                                        <hr />
+                                        <ul class="list-unstyled">
+                                            <li><i class="fa fa-history"></i>March 8, 2018</li>
+                                            <li><i class="fa fa-user"></i>by Angela Brawn</li>
+                                            <li><i class="fa fa-comments"></i>2</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-md-offset-0 col-sm-6 col-sm-offset-3 col-xs-12">
+                            <div class="news">
+                                <div class="news-img">
+                                    <img src="img/img-blog-post-03-540x540.jpg" class="img-responsive" />
+                                </div>
+                                <div class="news-info">
+                                    <div class="cont text-center">
+                                        <i class="fa fa-search"></i>
+                                        <span>Examination for kids</span>
+                                        <hr />
+                                        <ul class="list-unstyled">
+                                            <li><i class="fa fa-history"></i>March 8, 2018</li>
+                                            <li><i class="fa fa-user"></i>by Angela Brawn</li>
+                                            <li><i class="fa fa-comments"></i>2</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- End Section Latest News [ Azza ] -->
+
+            <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+            <!-- Start Footer [ Esraa ] -->
+
+
+            <!-- End Footer [ Esraa ] -->
+
+            <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
+            <script src="js/jquery-1.11.1.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/edit.js"></script>
+            <script src="js/wow.min.js"></script>
+            <script>
+                new WOW().init();
+            </script>
 </body>
 
 </html>

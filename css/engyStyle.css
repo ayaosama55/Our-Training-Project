@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.home-engy { background-image: url("../img/bgn-testimonials.jpg"); background-size: cover; background-repeat: no-repeat;
+    width: 100%; height: 10%;
+}
+.home-engy .container .testimonials .engy-a { text-align: center;}
+.home-engy .container .testimonials .engy-b { text-align: center;  text-decoration: underline;}
+.home-engy .container .testimonials .engy-c { text-align: center; font-size: 60px;}
+.home-engy .container .testimonials .engy-c strong { color: rgb(37, 190, 236);}
+.home-engy .container .testimonials .engy-d { text-align: left; margin-top: 40px;}
+.home-engy .container .testimonials .engy-d p2 { color: blue;}
+.home-engy .container .testimonials .engy-e { margin-left: 35%; text-align: justify; }
+.home-engy .container .testimonials .engy-e p4 { color: blue;}
+.home-engy .container .testimonials .engy-f { margin-left: 75%;  text-align: justify; }
+.home-engy .container .testimonials .engy-f p6 { color: blue; margin-bottom: 30px;}
+
+
+.home-engy .container .forward {  position: absolute;
+    background: linear-gradient(to right, rgba(130,190,66,1) 0%,rgba(48,178,210,1) 50%,rgba(28,76,147,1) 100%); margin-right: 0; margin-left: 0;
+    width: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 20px;
+    border-radius:5px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.3);
+    color: #fff;}
+    .home-engy .container .testimonials .engy-f .forward .content { margin-bottom: 15px;} 
+    .home-engy .container .testimonials .engy-f .forward .content1 h3 { font-size: 30px; text-align: left;}
+    .home-engy .container .testimonials .engy-f .forward .content hr {  width:70px;
+       background-color: #1c4c93;
+       height: 2px;
+       border-top: none;
+       margin: 10px 0;}
+       .home-engy .container .testimonials .engy-f .forward .content p7 {font-size:17px;
+       line-height:1.6;
+       letter-spacing: .7px;}
+       input[type="email"] { background-color: rgba(255,255,255,.075) ;
+        border: none;
+        padding:10px;
+        font-size:17px;
+        width: 70%;}
+         input[type="submit"]{ background: #30b2d2;
+            border: none;
+            padding: 10px;
+            font-size: 17px;
+            transition: .3s all ease-in-out;
+            margin-top: 10px;}
+
+
+
+            .map{ background: linear-gradient(to right, rgba(130,190,66,1) 0%,rgba(48,178,210,1) 50%,rgba(28,76,147,1) 100%); }
+            .map-a{ margin-left: 15%; }
+                .map p11{ font-size: 15px;}
+                .map p10{
+                    font-size: 30px;
+                    color: black;
+                }
+                   .map #gMap{
+                        width: 100%;
+                        height:350px;
+                        background: #eef1f2;
+                        color:#000;
+                        margin-right: auto;
+                        margin-left: auto; 
+                        border:1px solid #fff;
+                        outline: 1px solid #999;
+                       }
