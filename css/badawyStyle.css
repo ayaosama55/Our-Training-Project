@@ -98,6 +98,9 @@
             margin-bottom: 5px;
             font-size: 10px;
         }
+        .carousel .carousel-indicators {
+            bottom: -5px !important;
+        }
     }
     /* End Media Slider */
     /* End Slider  */
