@@ -53,7 +53,55 @@
     .carousel-inner .item .carousel-caption .content-slider .not-margin-hr {
         margin: 0px auto 20px;
     }
+    /* Start Circle in bottom of slider */
+    
+    .carousel-indicators li {
+        border: none;
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    .carousel-indicators .active {
+        width: 14px;
+        height: 14px;
+        margin: 0;
+        background-color: #30b2d2;
+    }
+    /* End Circle in bottom of slider */
+    /* Start Media Slider */
+    
+    @media(max-width:767px) {
+        .carousel-inner .item .carousel-caption {
+            right: 3%;
+            top: 3%;
+            left: 3%;
+            width: 100%;
+        }
+        .carousel-inner .item .carousel-caption .col-xs-offset-6 {
+            margin-left: 39%;
+        }
+        .carousel-inner .item .carousel-caption .content-slider .slider-heading {
+            font-size: 30px;
+            letter-spacing: 0px;
+            margin-top: -5px;
+        }
+        .carousel-inner .item .carousel-caption .content-slider .slider-heading span {
+            font-weight: bold;
+        }
+        .carousel-inner .item .carousel-caption .content-slider hr {
+            margin: -10px auto 20px;
+        }
+        .carousel-inner .item .carousel-caption .content-slider .btn {
+            padding: 10px 15px;
+            margin-left: 1px;
+            margin-right: 1px;
+            margin-top: 1px;
+            margin-bottom: 5px;
+            font-size: 10px;
+        }
+    }
+    /* End Media Slider */
     /* End Slider  */
+    /*----------------------------------------*/
     /* Start offers */
     
     .offesrs {
@@ -305,6 +353,7 @@
     /* End Media According */
     /* End According */
     /* End About us */
+    /***********************************************************************/
     /* Strat Contact us */
     
     .contact-us {
