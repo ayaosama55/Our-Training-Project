@@ -364,6 +364,28 @@
         /* End According */
         /* End About us */
         /***********************************************************************/
+        /* Start Service */
+        
+        .numbers-aya .container .row .colume-icon {
+            margin-bottom: 50px;
+        }
+        
+        .numbers-aya .num-content .num-service {
+            border: 3px solid #30b2d2;
+            width: 150px;
+            height: 150px;
+            margin: 30px auto;
+            border-radius: 50%;
+            padding: 45px;
+        }
+        
+        .numbers-aya .num-content .progress {
+            height: 7px;
+            margin-bottom: 25px;
+            background-color: #CCC;
+        }
+        /* End Service */
+        /***********************************************************************/
         /* Strat Contact us */
         
         .contact-us {
