@@ -1,0 +1,76 @@
+/* esraa address ********************/
+
+.sectionicon {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+}
+
+.sectionicon .container .testesraa {
+    display: inline-table;
+    padding: 65px
+}
+
+.sectionicon .container .testesraa i {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 28px
+}
+
+.sectionicon .container .testesraa i:hover {
+    color: #fff;
+    transform: scale(1.0);
+    opacity: 7%;
+    border: 2px solid#fff;
+    transition: 1.5s;
+}
+
+.sectionicon .container .testesraa .addressesraa h4 {
+    font-weight: bold;
+    color: #fff
+}
+
+.sectionicon .container .testesraa .addressesraa span {
+    display: block;
+    margin-bottom: 10px
+}
+
+.sectionicon .container .testesraa .addressesraa p {
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
+    .sectionicon {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+    }
+    .sectionicon .container .testesraa {
+        padding: 55px;
+        margin-left: 5px;
+        margin-top: -40px;
+    }
+    .sectionicon .container .testesraa i {
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 28px
+    }
+    .sectionicon .container .testesraa i:hover {
+        color: #fff;
+        transform: scale(1.0);
+        opacity: 7%;
+        border: 2px solid#fff;
+        transition: 1.5s;
+    }
+    .sectionicon .container .testesraa .addressesraa h4 {
+        font-weight: bold;
+        color: #fff
+    }
+    .sectionicon .container .testesraa .addressesraa span {
+        display: block;
+        margin-bottom: 10px
+    }
+    .sectionicon .container .testesraa .addressesraa p {
+        color: #fff;
+    }
+}

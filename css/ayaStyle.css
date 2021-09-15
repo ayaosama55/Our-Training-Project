@@ -540,3 +540,9 @@ body {
         font-size: 17px;
     }
 }
+.carousel-indicators li {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.our-developer .carousel .carousel-indicators {
+    bottom: -40px !important;
+}
