@@ -1,4 +1,7 @@
 
+.clear {
+    clear: both;
+}
 
 .Latest-news {
     margin: 50px 0;
@@ -72,4 +75,55 @@
 }
 .Latest-news .news .news-info .cont ul li i {
     margin-right: 5px;
+}
+
+
+/* start services */
+.services-azza, .serv2-azza {
+    padding:50px 0;
+}
+.services-azza .all-icon,
+.serv2-azza .all-icon  {
+    float: left;
+    width:70%;
+}
+.services-azza .azza-hour-work {
+    float: left;
+    width:30%
+}
+.services-azza .all-icon .one-icon,
+.serv2-azza .all-icon .one-icon {
+    float: left;
+    margin-right: 1%;
+    width: 49%;
+}
+.services-azza .all-icon .one-icon span ,
+.serv2-azza .all-icon .one-icon span
+{
+    float: left;
+    width:30%;
+}
+.services-azza .all-icon .one-icon span i ,
+.serv2-azza .all-icon .one-icon span i {
+    height: 90px;
+    width: 90px;
+    background-color:#f00;
+    color:#000;
+    font-size:30px;
+    line-height:90px;
+    text-align:center;
+    border-radius: 50%;
+}
+.services-azza .all-icon .one-icon .icon-content ,
+    .serv2-azza .all-icon .one-icon .icon-content {
+    float: left;
+    width:70%;
+}
+
+.serv2-azza .all-icon .one-icon {
+    width:32.33%;
+}
+.serv2-azza .all-icon {
+    float: none;
+    width:100%;
 }
