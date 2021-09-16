@@ -24,6 +24,18 @@
         <script src="js/html5shiv.min.js"></script>
         <script src="js/respond.min.js"></script>
     <![endif]-->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function initialize() {
+            var mapProp = {
+                center: new google.maps.LatLng(12.81222, 45.02917),
+                zoom: 6,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("gMap"), mapProp);
+        }
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
 </head>
 
 <body>
@@ -338,7 +350,18 @@
     <!--/////////////////////////////////////////////////////////////////////////////////////////////////-->
 
     <!-- Start Section Get In Touch And Map [ Engy ] -->
-    
+    <div class="map" style="padding-top: 60px;">
+        <div id="gMap"></div>
+
+        <div class="map-a">
+            <div class="content-engy">
+                <p class="p10">Get in <strong>touch</strong> </p><br>
+                <p class="p11">Come and visit our quarters or simply send us an email anytime you want.<br> We are open to all suggestions from our audience.</p>
+            </div>
+        
+        </div>
+
+    </div>
 
 
     <!-- End Section Get In Touch And Map [ Engy ] -->
