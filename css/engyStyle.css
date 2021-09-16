@@ -105,7 +105,7 @@ body {
     letter-spacing: .7px;
 }
 
-input[type="email"] {
+.engy-f input[type="email"] {
     background-color: rgba(255, 255, 255, .075);
     border: none;
     padding: 10px;
@@ -113,7 +113,7 @@ input[type="email"] {
     width: 70%;
 }
 
-input[type="submit"] {
+.engy-f input[type="submit"] {
     background: #30b2d2;
     border: none;
     padding: 10px;
