@@ -19,8 +19,13 @@ body {
     height: 10%;
 }
 
+<<<<<<< HEAD
 .home-engy .container .testimonials .engy-a { background-color: #fff;
  border-radius: 80%; width: 3%; margin-left: 48%; text-align: center;
+=======
+.home-engy .container .testimonials .engy-a {
+    text-align: center;
+>>>>>>> dac91bdf198d816f3ed6adb770e7ad207fb0420d
 }
 
 .home-engy .container .testimonials .engy-b {
@@ -40,16 +45,23 @@ body {
 .home-engy .container .testimonials .engy-d {
     text-align: left;
     margin-top: 40px;
+<<<<<<< HEAD
     display: inline-block;
 }
 
 .home-engy .container .testimonials .engy-d .p2 {
+=======
+}
+
+.home-engy .container .testimonials .engy-d p2 {
+>>>>>>> dac91bdf198d816f3ed6adb770e7ad207fb0420d
     color: blue;
 }
 
 .home-engy .container .testimonials .engy-e {
     margin-left: 35%;
     text-align: justify;
+<<<<<<< HEAD
 
 }
 
@@ -64,6 +76,20 @@ body {
 }
 
 .home-engy .container .testimonials .engy-f .p6 {
+=======
+}
+
+.home-engy .container .testimonials .engy-e p4 {
+    color: blue;
+}
+
+.home-engy .container .testimonials .engy-f {
+    margin-left: 75%;
+    text-align: justify;
+}
+
+.home-engy .container .testimonials .engy-f p6 {
+>>>>>>> dac91bdf198d816f3ed6adb770e7ad207fb0420d
     color: blue;
     margin-bottom: 30px;
 }
@@ -99,13 +125,21 @@ body {
     margin: 10px 0;
 }
 
+<<<<<<< HEAD
 .home-engy .container .testimonials .engy-f .forward .content .p7 {
+=======
+.home-engy .container .testimonials .engy-f .forward .content p7 {
+>>>>>>> dac91bdf198d816f3ed6adb770e7ad207fb0420d
     font-size: 17px;
     line-height: 1.6;
     letter-spacing: .7px;
 }
 
+<<<<<<< HEAD
 .engy-f input[type="email"] {
+=======
+input[type="email"] {
+>>>>>>> dac91bdf198d816f3ed6adb770e7ad207fb0420d
     background-color: rgba(255, 255, 255, .075);
     border: none;
     padding: 10px;
@@ -113,7 +147,11 @@ body {
     width: 70%;
 }
 
+<<<<<<< HEAD
 .engy-f input[type="submit"] {
+=======
+input[type="submit"] {
+>>>>>>> dac91bdf198d816f3ed6adb770e7ad207fb0420d
     background: #30b2d2;
     border: none;
     padding: 10px;
@@ -122,6 +160,7 @@ body {
     margin-top: 10px;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -144,12 +183,35 @@ body {
 #gMap {
     width: 100%;
     height: 400px;
+=======
+.map {
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+}
+
+.map-a {
+    margin-left: 15%;
+}
+
+.map p11 {
+    font-size: 15px;
+}
+
+.map p10 {
+    font-size: 30px;
+    color: black;
+}
+
+.map #gMap {
+    width: 100%;
+    height: 350px;
+>>>>>>> dac91bdf198d816f3ed6adb770e7ad207fb0420d
     background: #eef1f2;
     color: #000;
     margin-right: auto;
     margin-left: auto;
     border: 1px solid #fff;
     outline: 1px solid #999;
+<<<<<<< HEAD
 }
 
 .appointment { background-image: url("../img/bgn-testimonials-02.jpg");
@@ -166,4 +228,6 @@ body {
     font-size: 45px;
     color: rgb(116, 195, 248);
     font-style: italic;
+=======
+>>>>>>> dac91bdf198d816f3ed6adb770e7ad207fb0420d
 }
