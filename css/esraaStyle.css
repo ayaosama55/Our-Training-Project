@@ -1,3 +1,172 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/**************contact****************/
+
+.contacts {
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+}
+
+.contacts h4 {
+    color: #fff;
+    text-align: center;
+    font-family: Calibri Light;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.contacts hr {
+    height: 2px;
+    border: 0;
+    background-color: #3535b0;
+    width: 65px;
+    margin-left: 728px;
+    margin-top: -15px
+}
+
+.contacts h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 40px;
+    margin-top: 2px;
+}
+
+.contacts p {
+    text-align: center;
+    font-family: Calibri Light;
+    color: #fff;
+    padding-bottom: 32px;
+    font-size: 15px
+}
+
+.contacts span {
+    display: block
+}
+
+@media screen and (max-width:767px) {
+    .contacts {
+        background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+    }
+    .contacts h4 {
+        color: #fff;
+        text-align: center;
+        font-family: Calibri Light;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .contacts h2 {
+        color: #fff;
+        text-align: center;
+        font-family: Consolas;
+        font-size: 40px;
+    }
+    .contacts p {
+        text-align: center;
+        font-family: Calibri Light;
+        color: #fff;
+        padding-bottom: 32px;
+        font-size: 16px;
+    }
+    .contacts span {
+        display: block
+    }
+}
+
+
+/**************appointment****************/
+
+.appo {
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+}
+
+.appo h4 {
+    color: #fff;
+    text-align: center;
+    font-family: Calibri Light;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.appo hr {
+    height: 2px;
+    border: 0;
+    background-color: #3535b0;
+    width: 65px;
+    margin-left: 732px;
+    margin-top: -15px
+}
+
+.appo h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 40px;
+    margin-top: 2px;
+}
+
+.appo p {
+    text-align: center;
+    font-family: Calibri Light;
+    color: #fff;
+    padding-bottom: 32px;
+    font-size: 15px
+}
+
+.appo span {
+    display: block
+}
+
+@media screen and (max-width:767px) {
+    .appo {
+        background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+    }
+    .appo h4 {
+        color: #fff;
+        text-align: center;
+        font-family: Calibri Light;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .appo hr {
+        height: 1px;
+        border: 0;
+        background-color: #3535b0;
+        width: 65px;
+        margin-left: 732px;
+        margin-top: -15px
+    }
+    .appo h2 {
+        color: #fff;
+        text-align: center;
+        font-family: Consolas;
+        font-size: 40px;
+        margin-top: 2px;
+    }
+    .appo p {
+        text-align: center;
+        font-family: Calibri Light;
+        color: #fff;
+        padding-bottom: 32px;
+        font-size: 15px
+    }
+    .appo span {
+        display: block
+    }
+}
+
+
 /* esraa address ********************/
 
 .sectionicon {
@@ -74,3 +243,287 @@
         color: #fff;
     }
 }
+
+
+/*start footer */
+
+.esraafooter {
+    background-color: #dfdbdb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.esraafooter .container .imagefooter img {
+    margin-left: 460px;
+}
+
+.esraafooter .container hr {
+    background-color: #c7bfbf;
+    height: 1px;
+    border: 0;
+}
+
+.esraafooter .container .esraaiconface {
+    width: 27%;
+    float: left;
+}
+
+.esraafooter .container .esraaiconface h3 {
+    color: #807773;
+    font-size: 33px;
+    font-family: Calibri Light
+}
+
+.esraafooter .container .esraaiconface .iconsend i {
+    display: block;
+    width: 11%;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.esraafooter .container .esraaiconface .iconsend :first-child {
+    color: #ffffff;
+    background: #909090;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaiconface .iconsend :first-child:hover {
+    color: #909090;
+    background: #ffffff;
+    transition: 1s;
+    border: 2px solid#909090;
+}
+
+.esraafooter .container .esraaiconface .iconsend :nth-of-type(2) {
+    color: #ffffff;
+    background: #30b2d2;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaiconface .iconsend :nth-of-type(2):hover {
+    color: #30b2d2;
+    background: #ffffff;
+    transition: 1s;
+    border: 2px solid#30b2d2;
+}
+
+.esraafooter .container .esraaiconface .iconsend :nth-of-type(3) {
+    color: #ffffff;
+    background: #1c4c93;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaiconface .iconsend :nth-of-type(3):hover {
+    color: #1c4c93;
+    background: #ffffff;
+    border: 2px solid#1c4c93;
+    transition: 1s;
+}
+
+.esraafooter .container .callesraa {
+    margin-top: -150px;
+    margin-left: 45px;
+}
+
+.esraafooter .container .callesraa p {
+    color: #6f6e69;
+    font-weight: lighter;
+}
+
+.esraafooter .container .callesraa span {
+    display: block;
+    font-weight: bold;
+    color: rgb(15, 15, 15)
+}
+
+.esraafooter .container .esraalinks {
+    width: 17%;
+    float: left;
+}
+
+.esraafooter .container .esraalinks h3 {
+    color: #807773;
+    font-size: 33px;
+    font-family: Calibri Light;
+}
+
+.esraafooter .container .esraalinks .esraalinkks a {
+    display: block;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 20px;
+    color: #514745;
+    font-family: Calibri Light;
+    font-weight: bold;
+}
+
+.esraafooter .container .esraalinks .esraalinkks a:hover {
+    color: #8c8c8c;
+    transition: 1s;
+}
+
+.esraafooter .container .esraasubmit {
+    width: 25%;
+    float: left
+}
+
+.esraafooter .container .esraasubmit h3 {
+    color: #807773;
+    font-size: 33px;
+    font-family: Calibri Light;
+}
+
+.esraafooter .container .esraasubmit .iconsubmit p {
+    color: #5d5d64;
+    font-weight: lighter;
+}
+
+.esraafooter .container .esraasubmit .iconsubmit .space {
+    height: 10px;
+}
+
+.esraafooter .container .esraasubmit .iconsubmit form input[type="email"] {
+    font-family: Calibri Light;
+    background-color: #d0d5d9;
+    border: none;
+    font-size: 15px;
+    border-radius: 4px;
+    color: #000000;
+    font-weight: bold;
+    padding: 15px 10px;
+    width: 95%
+}
+
+.esraafooter .container .esraasubmit .iconsubmit form input[type="email"]:hover {
+    border: 2px solid #30b2d2;
+}
+
+.esraafooter .container .esraasubmit .iconsubmit form input[type="submit"] {
+    width: 95%;
+    font-family: Calibri Light;
+    cursor: pointer;
+    background: #1c4c93;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 10px;
+    font-size: 16px
+}
+
+.esraafooter .container .esraasubmit .iconsubmit form input[type="submit"]:hover {
+    background: #497ecc;
+    transition: 1s;
+}
+
+.esraafooter .container .esraaicontwitter {
+    width: 28%;
+    float: left;
+    margin-left: 33px;
+}
+
+.esraafooter .container .esraaicontwitter h3 {
+    color: #807773;
+    font-size: 33px;
+    font-family: Calibri Light
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta i {
+    display: block;
+    width: 12%;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :first-child {
+    color: #ffffff;
+    background: #909090;
+    border-radius: 50%
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :first-child:hover {
+    color: #909090;
+    background: #ffffff;
+    transition: 1s;
+    border: 2px solid#909090;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(2) {
+    color: #ffffff;
+    background: #30b2d2;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(2):hover {
+    color: #30b2d2;
+    background: #ffffff;
+    transition: 1s;
+    border: 2px solid#30b2d2;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(3) {
+    color: #ffffff;
+    background: #1c4c93;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(3):hover {
+    color: #1c4c93;
+    background: #ffffff;
+    border: 2px solid#1c4c93;
+    transition: 1s;
+}
+
+.esraafooter .container .instagramesraa {
+    margin-top: -150px;
+    margin-left: 45px;
+}
+
+.esraafooter .container .instagramesraa p {
+    color: #6f6e69;
+    font-weight: lighter;
+}
+
+.esraafooter .container .instagramesraa span {
+    display: block;
+    font-weight: bold;
+    color: rgb(15, 15, 15)
+}
+
+.end_footer {
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+    padding: 13px;
+    overflow: hidden
+}
+
+.end_footer .copy {
+    color: #fff;
+    font-family: Calibri Light;
+    margin-left: 200px;
+    margin-top: 20px
+}
+
+.end_footer .lin .links {
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 805px;
+    margin-top: -60px
+}
+
+.end_footer .lin .links li {
+    float: left;
+    padding: 30px
+}
+
+.end_footer .lin .links li a {
+    color: #ffff;
+    font-family: Calibri Light;
+    text-decoration: none;
+}
+
+.end_footer .lin .links li a:hover {
+    color: #ffdcdd
+}
+
+
+/*end footer*/
