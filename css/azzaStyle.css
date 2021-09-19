@@ -79,51 +79,62 @@
 
 
 /* start services */
-.services-azza, .serv2-azza {
-    padding:50px 0;
+.serv2-azza {
+    padding: 50px 0;
 }
-.services-azza .all-icon,
-.serv2-azza .all-icon  {
-    float: left;
-    width:70%;
+.serv2-azza .serv-head hr {
+    width:100px;
+    background-color: #1C4C93;
+    height:1.5px;
+    margin: 10px auto;
 }
-.services-azza .azza-hour-work {
-    float: left;
-    width:30%
+.serv2-azza .serv-head h2 {
+    font-size:50px;
+    margin-bottom: 20px;
 }
-.services-azza .all-icon .one-icon,
-.serv2-azza .all-icon .one-icon {
-    float: left;
-    margin-right: 1%;
-    width: 49%;
-}
-.services-azza .all-icon .one-icon span ,
-.serv2-azza .all-icon .one-icon span
-{
-    float: left;
-    width:30%;
-}
-.services-azza .all-icon .one-icon span i ,
-.serv2-azza .all-icon .one-icon span i {
-    height: 90px;
-    width: 90px;
-    background-color:#f00;
-    color:#000;
-    font-size:30px;
-    line-height:90px;
-    text-align:center;
-    border-radius: 50%;
-}
-.services-azza .all-icon .one-icon .icon-content ,
-    .serv2-azza .all-icon .one-icon .icon-content {
-    float: left;
-    width:70%;
-}
-
-.serv2-azza .all-icon .one-icon {
-    width:32.33%;
+.serv2-azza .serv-head h2 span {
+    display: block;
+    font-weight: bold;
+    color: #30B2D2;
 }
 .serv2-azza .all-icon {
-    float: none;
-    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.serv2-azza .all-icon .one-icon {
+    width:calc(97%/3);
+    margin-right: 1%;
+    display: flex;
+}
+.serv2-azza .all-icon .one-icon span {margin-top: 25px; margin-right: 10px}
+.serv2-azza .all-icon .one-icon span i{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius:50%;
+    background-color: #1C4C93;
+    color: #fff; 
+    font-size: 30px;
+    text-align: center;
+}
+.serv2-azza .all-icon .one-icon .icon-content h3 { 
+    font-size:20px;
+    font-weight: bold;
+}
+.serv2-azza .all-icon .one-icon .icon-content p { 
+    line-height:1.5;
+    font-size: 14px;
+    margin-right: 20px;
+}
+
+@media(max-width:991px) {
+    .serv2-azza .all-icon .one-icon {
+        width: calc(97% /2);
+    }
+}
+@media(max-width:767px) {
+    .serv2-azza .all-icon .one-icon {
+        width: 99%;
+    }
 }
