@@ -89,6 +89,8 @@ body {
 
 .appo {
     background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+    margin-bottom: -20px;
+    /*Abdelrahman*/
 }
 
 .appo h4 {
@@ -121,7 +123,7 @@ body {
     font-family: Calibri Light;
     color: #fff;
     padding-bottom: 32px;
-    font-size: 15px
+    /* font-size: 15px */
 }
 
 .appo span {

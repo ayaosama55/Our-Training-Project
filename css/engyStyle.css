@@ -231,3 +231,22 @@ body {
     color: rgb(116, 195, 248);
     font-style: italic;
 }
+
+
+/*Abdelrahman*/
+
+.appointment .app-engy .form {
+    padding-bottom: 40px;
+}
+
+.appointment .app-engy .form input {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #dedddd;
+    border: 2px solid #CCC;
+    font-size: 16px;
+}
+
+
+/*Abdelrahman*/
