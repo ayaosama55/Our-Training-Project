@@ -38,7 +38,6 @@ body {
 .contacts h2 {
     color: #fff;
     text-align: center;
-    font-family: Consolas;
     font-size: 40px;
     margin-top: 2px;
 }
@@ -48,7 +47,7 @@ body {
     font-family: Calibri Light;
     color: #fff;
     padding-bottom: 32px;
-    font-size: 15px
+    font-size: 20px
 }
 
 .contacts span {
@@ -255,8 +254,14 @@ body {
     padding-bottom: 70px;
 }
 
+.esraafooter .container .imagefooter {
+    width: 25%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
 .esraafooter .container .imagefooter img {
-    margin-left: 460px;
+    width: 85%;
 }
 
 .esraafooter .container hr {
@@ -387,7 +392,7 @@ body {
 .esraafooter .container .esraasubmit .iconsubmit form input[type="email"] {
     font-family: Calibri Light;
     background-color: #d0d5d9;
-    border: none;
+    border: 2px solid #d0d5d9;
     font-size: 15px;
     border-radius: 4px;
     color: #000000;
@@ -494,27 +499,35 @@ body {
 
 .end_footer {
     background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
-    padding: 13px;
+    padding: 10px;
     overflow: hidden
 }
 
 .end_footer .copy {
     color: #fff;
     font-family: Calibri Light;
-    margin-left: 200px;
-    margin-top: 20px
+    /* margin-left: 200px; */
+    margin-top: 20px;
+    width: 47%;
+}
+
+.end_footer .lin {
+    width: 47%;
+    float: right;
 }
 
 .end_footer .lin .links {
     text-transform: uppercase;
     list-style: none;
-    margin-left: 805px;
+    /* margin-left: 805px; */
     margin-top: -60px
 }
 
 .end_footer .lin .links li {
     float: left;
-    padding: 30px
+    padding: 30px;
+    padding-top: 11px;
+    font-size: 21px;
 }
 
 .end_footer .lin .links li a {
