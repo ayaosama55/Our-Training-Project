@@ -1,6 +1,12 @@
         /* Start Home */
         /* Start Slider */
         
+        .sider-badawy .carousel-inner>.item>img,
+        .sider-badawy .carousel-inner>.item>a>img {
+            background-size: cover;
+            width: 100%;
+        }
+        
         .carousel-inner .item .carousel-caption {
             right: 20%;
             bottom: 0;
