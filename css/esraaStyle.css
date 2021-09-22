@@ -26,14 +26,20 @@ body {
     font-size: 20px;
 }
 
-.contacts hr {
+
+/* .contacts hr {
     height: 2px;
     border: 0;
     background-color: #3535b0;
     width: 65px;
-    margin-left: 728px;
-    margin-top: -15px
-}
+    /* margin-left: 728px; */
+
+
+/*How!!*/
+
+
+/*  margin-top: -15px
+} */
 
 .contacts h2 {
     color: #fff;
@@ -100,14 +106,15 @@ body {
     font-size: 20px;
 }
 
-.appo hr {
+
+/* .appo hr {
     height: 2px;
     border: 0;
     background-color: #3535b0;
     width: 65px;
     margin-left: 732px;
     margin-top: -15px
-}
+} */
 
 .appo h2 {
     color: #fff;
@@ -140,14 +147,14 @@ body {
         padding: 15px;
         font-size: 20px;
     }
-    .appo hr {
+    /* .appo hr {
         height: 1px;
         border: 0;
         background-color: #3535b0;
         width: 65px;
         margin-left: 732px;
         margin-top: -15px
-    }
+    } */
     .appo h2 {
         color: #fff;
         text-align: center;
@@ -542,3 +549,18 @@ body {
 
 
 /*end footer*/
+
+
+/* hr modify by abdelrahman*/
+
+.hr-editing {
+    height: 2px;
+    border: none;
+    background-color: #3535b0;
+    width: 65px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* hr modify by abdelrahman*/
