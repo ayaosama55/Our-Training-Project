@@ -618,4 +618,84 @@
             font-size: 16px;
         }
     }
+    
+    @media(min-width:768px) and (max-width:991px) {
+        .esraafooter .container .imagefooter {
+            width: 40% !important;
+        }
+        .esraafooter .container hr {
+            height: 2px;
+            width: 90%;
+            margin: auto;
+            margin-bottom: -25px !important;
+        }
+        .esraafooter .container .esraaiconface,
+        .esraafooter .container .esraalinks,
+        .esraafooter .container .esraasubmit,
+        .esraafooter .container .esraaicontwitter {
+            width: 49% !important;
+            float: left !important;
+            margin: auto !important;
+            text-align: center;
+            padding-top: 40px;
+        }
+        .esraafooter .container .esraasubmit {
+            position: relative;
+            right: 50%;
+            top: 20px
+        }
+        .esraafooter .container .esraaicontwitter {
+            position: relative;
+            top: -260px;
+            left: 52%;
+        }
+        .esraafooter .container .esraaiconface .iconsend i,
+        .esraafooter .container .esraaicontwitter .iconinsta i {
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+        .esraafooter .container .callesraa,
+        .esraafooter .container .esraaicontwitter .instagramesraa {
+            margin-top: -178px;
+        }
+        .esraafooter .container .callesraa p,
+        .esraafooter .container .esraaicontwitter .instagramesraa p {
+            margin-bottom: 30px;
+        }
+        .esraafooter .container .esraaiconface h3,
+        .esraafooter .container .esraalinks h3,
+        .esraafooter .container .esraasubmit h3,
+        .esraafooter .container .esraaicontwitter h3 {
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .esraafooter .container .esraalinks .esraalinkks a {
+            font-size: 23px;
+        }
+        .end_footer {
+            overflow: visible !important;
+            padding-top: 0px;
+        }
+        .end_footer .lin {
+            width: 100% !important;
+            float: none;
+        }
+        .end_footer .copy {
+            color: #fff;
+            margin: auto;
+            margin-top: 20px;
+            width: 95%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .end_footer .lin .links {
+            margin-left: 0px;
+            margin-top: 0px;
+        }
+        .end_footer .lin .links li {
+            padding-left: 20px;
+            padding-top: 0px;
+            padding-bottom: 5px;
+            font-size: 16px;
+        }
+    }
     /* End Responsive Footer  */
