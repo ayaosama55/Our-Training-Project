@@ -41,36 +41,71 @@ body {
     color: rgb(37, 190, 236);
 }
 
-.home-engy .container .testimonials .engy-d {
+
+/* .home-engy .container .testimonials .engy-d {
     text-align: left;
     margin-top: 40px;
     display: inline-block;
+} */
+
+
+/* Abdelrahman*/
+
+.home-engy .container .testimonials .engy-testi {
+    display: inline-block;
+    width: 33%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
 }
 
-.home-engy .container .testimonials .engy-d .p2 {
+.home-engy .container .testimonials .engy-testi p {
+    font-size: 16px;
+}
+
+.home-engy .container .testimonials .engy-testi p:last-child {
     color: blue;
+    font-size: 14px;
+    float: right;
 }
 
-.home-engy .container .testimonials .engy-e {
+
+/* Abdelrahman*/
+
+
+/* .home-engy .container .testimonials .engy-testi .p2 {
+    color: blue;
+} */
+
+
+/* .home-engy .container .testimonials .engy-e {
     margin-left: 35%;
     text-align: justify;
-}
+} */
 
-.home-engy .container .testimonials .engy-e .p4 {
+
+/* .home-engy .container .testimonials .engy-testi .p4 {
     color: blue;
-}
+} */
 
-.home-engy .container .testimonials .engy-f {
+
+/* .home-engy .container .testimonials .engy-f {
     margin-left: 75%;
     text-align: justify;
-}
+} */
 
-.home-engy .container .testimonials .engy-f .p6 {
-    color: blue;
-    /* margin-bottom: 30px; */
-    margin-bottom: 50px;
-    /*Abdelrahman*/
-}
+
+/* .home-engy .container .testimonials .engy-testi .p6 {
+    color: blue; */
+
+
+/* margin-bottom: 30px; */
+
+
+/* margin-bottom: 50px; */
+
+
+/*Abdelrahman*/
 
 .home-engy .container .forward {
     margin-top: -40px;

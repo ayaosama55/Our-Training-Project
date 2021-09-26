@@ -1,460 +1,540 @@
-        /* Start Home */
-        /* Start Slider */
-        
-        .sider-badawy .carousel-inner>.item>img,
-        .sider-badawy .carousel-inner>.item>a>img {
-            background-size: cover;
-            width: 100%;
-        }
-        
-        .carousel-inner .item .carousel-caption {
-            right: 20%;
-            bottom: 0;
-            top: 20%;
-            left: 13%;
-            width: 80%;
-            color: #000;
-            text-shadow: none;
-        }
-        
-        .carousel-inner .item .carousel-caption .col-md-offset-6 {
-            width: 46%;
-        }
-        
-        .carousel-inner .item .carousel-caption .content-slider .slider-heading {
-            font-size: 60px;
-            letter-spacing: 2px;
-            margin-top: 0px;
-        }
-        
-        .carousel-inner .item .carousel-caption .content-slider .slider-heading span {
-            display: block;
-            color: #30b2d2;
-            letter-spacing: 1px;
-            font-weight: 1000;
-        }
-        
-        .carousel-inner .item .carousel-caption .content-slider hr {
-            width: 60px;
-            background-color: #1C4C93;
-            height: 2px;
-            margin: -20px auto 20px;
-        }
-        
-        .carousel-inner .item .carousel-caption .content-slider p {
-            color: #2c2c2c;
-        }
-        
-        .carousel-inner .item .carousel-caption .content-slider .btn {
-            padding: 15px 30px;
-            margin-left: 15px;
-            margin-right: 25px;
-            margin-top: 15px;
-        }
-        
-        .carousel-control {
-            opacity: 0.3;
-        }
-        
-        .carousel-inner .item .carousel-caption .content-slider .not-margin-hr {
-            margin: 0px auto 20px;
-        }
-        /* Start Circle in bottom of slider */
-        
-        .carousel-indicators li {
-            border: none;
-            background-color: rgba(0, 0, 0, 0.1);
-        }
-        
-        .carousel-indicators .active {
-            width: 14px;
-            height: 14px;
-            margin: 0;
-            background-color: #30b2d2;
-        }
-        /* End Circle in bottom of slider */
-        /* Start Media Slider */
-        
-        @media(max-width:767px) {
-            .carousel-inner .item .carousel-caption {
-                right: 3%;
-                top: 3%;
-                left: 3%;
-                width: 100%;
-            }
-            .carousel-inner .item .carousel-caption .col-xs-offset-6 {
-                margin-left: 35%;
-            }
-            .carousel-inner .item .carousel-caption .content-slider .slider-heading {
-                font-size: 25px;
-                letter-spacing: 0px;
-                margin-top: -5px;
-            }
-            .carousel-inner .item .carousel-caption .content-slider .slider-heading span {
-                font-weight: bold;
-            }
-            .carousel-inner .item .carousel-caption .content-slider hr {
-                margin: -10px auto 20px;
-            }
-            .carousel-inner .item .carousel-caption .content-slider .btn {
-                padding: 10px 15px;
-                margin-left: 1px;
-                margin-right: 1px;
-                margin-top: 1px;
-                margin-bottom: 5px;
-                font-size: 10px;
-            }
-            .carousel .carousel-indicators {
-                bottom: -5px !important;
-            }
-        }
-        /* End Media Slider */
-        /* End Slider  */
-        /*----------------------------------------*/
-        /* Start offers */
-        
-        .offesrs {
-            margin-top: 120px;
-            padding-top: 40px;
-            padding-bottom: 40px;
-        }
-        /* Start header offers */
-        
-        .offesrs .offer-head {
-            margin-bottom: 70px;
-        }
-        
-        .offesrs .offer-head hr {
-            width: 100px;
-            background-color: #1C4C93;
-            height: 2px;
-            margin: 0 auto;
-        }
-        
-        .offesrs .offer-head .with-great-price {
-            font-size: 50px;
-            color: #000;
-            margin-bottom: 40px;
-        }
-        
-        .offesrs .offer-head .with-great-price span {
-            display: block;
-            color: #30b2d2;
-            font-weight: bold;
-        }
-        /* End header offers */
-        /* Start price-box */
-        
-        .offesrs .price-box {
-            cursor: pointer;
-            margin-bottom: 25px;
-        }
-        
-        .offesrs .price-box .head-price-box {
-            background-color: #30b2d2;
-            color: #FFF;
-            padding: 20px;
-            border-radius: 5px 5px 0 0;
-        }
-        
-        .offesrs .price-box .head-price-box hr {
-            width: 50px;
-            height: 2px;
-        }
-        
-        .offesrs .price-box .head-price-box h2 {
-            font-weight: bold;
-            font-size: 50px;
-        }
-        
-        .offesrs .price-box .head-price-box .best-offer {
-            position: relative;
-            background-color: #1C4C93;
-            padding: 20px;
-            border-radius: 40px;
-            font-size: 11px;
-            font-weight: bold;
-            text-align: center;
-            width: 70px;
-            top: -52px;
-            left: 240px;
-            margin-bottom: -71px;
-        }
-        
-        .offesrs .price-box ul li {
-            padding: 15px;
-            background-color: rgba(204, 204, 204, .07);
-            border-bottom: 2px solid rgba(0, 0, 0, .07);
-            border-left: 2px solid rgba(0, 0, 0, .07);
-            border-right: 2px solid rgba(0, 0, 0, .07);
-        }
-        
-        .offesrs .price-box ul .dif {
-            background-color: rgba(0, 0, 0, .07);
-        }
-        
-        .offesrs .price-box ul li span {
-            float: right;
-        }
-        
-        .offesrs .price-box .order-btn {
-            padding: 10px 20px;
-            margin-top: 15px;
-            margin-bottom: 15px;
-            position: relative;
-            left: 33.333333333%;
-        }
-        
-        .offesrs .price-box .btn1 {
-            border: 1px solid #000;
-            background-color: #FFF;
-        }
-        
-        .offesrs .price-box .btn1:hover {
-            background-color: #000;
-            color: #FFF;
-        }
-        
-        @media(max-width:767px) {
-            .offesrs {
-                margin-top: 450px;
-            }
-            .offesrs .price-box .head-price-box .best-offer {
-                top: -45px;
-                left: 200px;
-                margin-bottom: -65px;
-            }
-        }
-        /* End price-box */
-        /* End offers */
-        /* End Home */
-        /********************************************************************/
-        /* Start About us */
-        /* Start header */
-        
-        .header-about .carousel-inner .item .carousel-caption .col-xs-offset-6 {
-            margin-left: 45%;
-        }
-        /* End header */
-        /*--------------------*/
-        /* Start According */
-        
-        .according {
-            background-image: url(../img/bgn-testimonials-02.jpg);
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: 0px -5px;
-            padding-top: 50px;
-            padding-bottom: 100px;
-        }
-        /* Start The Section Upper According */
-        
-        .according .not-according {
-            font-size: 20px;
-        }
-        
-        .according .h1 {
-            font-size: 50px;
-        }
-        
-        .according h2 span {
-            display: block;
-            color: #30b2d2;
-            font-weight: bold;
-            margin-top: 8px;
-        }
-        
-        .according h2+p {
-            margin-top: 10px;
-            margin-bottom: 50px;
-        }
-        
-        .according hr {
-            height: 2px;
-            width: 60px;
-            background-color: #1c4c93;
-            margin-top: 15px;
-        }
-        /* End The Section Upper According */
-        /* Start Main According */
-        
-        .according-bars {
-            margin-top: 55px;
-        }
-        
-        .according .according-bars .bar {
-            margin-top: 10px;
-            margin-bottom: 15px;
-        }
-        
-        .according .according-bars .bar .according-head {
-            background-color: rgba(0, 0, 0, .07);
-            padding: 15px;
-            margin: 0;
-            cursor: pointer;
-            font-weight: bold;
-        }
-        
-        .according-bars .according-head:after {
-            font-family: 'Glyphicons Halflings';
-            content: "\e114";
-            float: right;
-            color: #30b2d2;
-            -webkit-transition: all 0.2s ease-in-out;
-            -moz-transition: all 0.2s ease-in-out;
-            -o-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out;
-        }
-        
-        .according-bars .according-content {
-            padding: 20px;
-            margin: 0;
-            background-color: rgba(0, 0, 0, .07);
-            display: none;
-        }
-        /* End Main According */
-        /* Start According Active*/
-        
-        .according .according-bars .bar .according-active {
-            background-color: rgb(48, 178, 210);
-            color: #FFF;
-        }
-        
-        .according .according-bars .bar .according-active:after {
-            content: "\e113";
-            color: #FFF;
-            background-color: #207e95;
-            padding: 13px;
-            position: relative;
-            top: -14px;
-            left: 14px;
-            font-size: 17px;
-            -webkit-transition: padding 0.2s ease-in-out;
-            -moz-transition: padding 0.2s ease-in-out;
-            -o-transition: padding 0.2s ease-in-out;
-            transition: padding 0.2s ease-in-out;
-        }
-        /* End According Active*/
-        /* Start Media According */
-        /* Smart Phones */
-        
-        @media(max-width:767px) {
-            .according {
-                background-image: none !important;
-                background-color: #E8ECEF !important;
-                padding-bottom: 50px !important;
-                padding-left: 15px !important;
-                padding-right: 15px !important;
-            }
-            .according .bar .according-head {
-                font-size: 11px !important;
-            }
-            .according .according-bars .bar .according-active:after {
-                padding: 11px !important;
-                top: -15px !important;
-                left: 15px !important;
-            }
-        }
-        /* Small Screen */
-        
-        @media(min-width:768px) and (max-width:991px) {
-            .according {
-                background-image: none !important;
-                background-color: #E8ECEF !important;
-                padding-bottom: 50px !important;
-                padding-left: 15px !important;
-                padding-right: 15px !important;
-            }
-        }
-        /* End Media According */
-        /* End According */
-        /* End About us */
-        /***********************************************************************/
-        /* Start Service */
-        
-        .numbers-aya .container .row .colume-icon {
-            margin-bottom: 50px;
-        }
-        
-        .numbers-aya .num-content .num-service {
-            border: 3px solid #30b2d2;
-            width: 150px;
-            height: 150px;
-            margin: 30px auto;
-            border-radius: 50%;
-            padding: 45px;
-        }
-        
-        .numbers-aya .num-content .progress {
-            height: 7px;
-            margin-bottom: 25px;
-            background-color: #CCC;
-        }
-        /* End Service */
-        /***********************************************************************/
-        /* Strat Contact us */
-        
-        .contact-us {
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-        
-        .contact-us .contact-header {
-            width: 60%;
-        }
-        
-        .contact-us .contact-header h2 {
-            font-size: 50px;
-            letter-spacing: 1px;
-        }
-        
-        .contact-us .contact-header hr {
-            width: 60px;
-            background-color: #1C4C93;
-            height: 2px;
-        }
-        
-        .contact-us .contact-header h2 span {
-            color: #30b2d2;
-            font-weight: 1000;
-        }
-        /* Start Form */
-        
-        .contact-us .contact-form {
-            margin-top: 20px;
-            padding: 20px;
-        }
-        
-        .contact-us .contact-form input,
-        .contact-us .contact-form textarea {
-            margin-bottom: 10px;
-            padding: 10px;
-            width: 100%;
-            display: block;
-            background-color: #dedddd;
-            border: 2px solid #CCC;
-            font-size: 16px;
-        }
-        
-        .contact-us .contact-form textarea {
-            height: 200px;
-        }
-        
-        .contact-us .contact-form .btn-form {
-            padding: 10px 20px;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-        
-        @media(max-width:767px) {
-            .contact-us .contact-header {
-                margin: auto;
-                text-align: center;
-                width: 80%;
-            }
-            .contact-us .contact-header hr {
-                margin: auto;
-            }
-        }
-        /* End Form */
-        /* End Contact us */
+/* Start Home */
+
+
+/* Start Slider */
+
+.sider-badawy .carousel-inner>.item>img,
+.sider-badawy .carousel-inner>.item>a>img {
+    background-size: cover;
+    width: 100%;
+}
+
+.carousel-inner .item .carousel-caption {
+    right: 20%;
+    bottom: 0;
+    top: 20%;
+    left: 13%;
+    width: 80%;
+    color: #000;
+    text-shadow: none;
+}
+
+.carousel-inner .item .carousel-caption .col-md-offset-6 {
+    width: 46%;
+}
+
+.carousel-inner .item .carousel-caption .content-slider .slider-heading {
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-top: 0px;
+}
+
+.carousel-inner .item .carousel-caption .content-slider .slider-heading span {
+    display: block;
+    color: #30b2d2;
+    letter-spacing: 1px;
+    font-weight: 1000;
+}
+
+.carousel-inner .item .carousel-caption .content-slider hr {
+    width: 60px;
+    background-color: #1C4C93;
+    height: 2px;
+    margin: -20px auto 20px;
+}
+
+.carousel-inner .item .carousel-caption .content-slider p {
+    color: #2c2c2c;
+}
+
+.carousel-inner .item .carousel-caption .content-slider .btn {
+    padding: 15px 30px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.carousel-control {
+    opacity: 0.3;
+}
+
+.carousel-inner .item .carousel-caption .content-slider .not-margin-hr {
+    margin: 0px auto 20px;
+}
+
+
+/* Start Circle in bottom of slider */
+
+.carousel-indicators li {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.carousel-indicators .active {
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    background-color: #30b2d2;
+}
+
+
+/* End Circle in bottom of slider */
+
+
+/* Start Media Slider */
+
+@media(max-width:767px) {
+    .carousel-inner .item .carousel-caption {
+        right: 3%;
+        top: 3%;
+        left: 3%;
+        width: 100%;
+    }
+    .carousel-inner .item .carousel-caption .col-xs-offset-6 {
+        margin-left: 35%;
+    }
+    .carousel-inner .item .carousel-caption .content-slider .slider-heading {
+        font-size: 25px;
+        letter-spacing: 0px;
+        margin-top: -5px;
+    }
+    .carousel-inner .item .carousel-caption .content-slider .slider-heading span {
+        font-weight: bold;
+    }
+    .carousel-inner .item .carousel-caption .content-slider hr {
+        margin: -10px auto 20px;
+    }
+    .carousel-inner .item .carousel-caption .content-slider .btn {
+        padding: 10px 15px;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        font-size: 10px;
+    }
+    .carousel .carousel-indicators {
+        bottom: -5px !important;
+    }
+}
+
+
+/* End Media Slider */
+
+
+/* End Slider  */
+
+
+/*----------------------------------------*/
+
+
+/* Start offers */
+
+.offesrs {
+    margin-top: 120px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* Start header offers */
+
+.offesrs .offer-head {
+    margin-bottom: 70px;
+}
+
+.offesrs .offer-head hr {
+    width: 100px;
+    background-color: #1C4C93;
+    height: 2px;
+    margin: 0 auto;
+}
+
+.offesrs .offer-head .with-great-price {
+    font-size: 50px;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.offesrs .offer-head .with-great-price span {
+    display: block;
+    color: #30b2d2;
+    font-weight: bold;
+}
+
+
+/* End header offers */
+
+
+/* Start price-box */
+
+.offesrs .price-box {
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.offesrs .price-box .head-price-box {
+    background-color: #30b2d2;
+    color: #FFF;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.offesrs .price-box .head-price-box hr {
+    width: 50px;
+    height: 2px;
+}
+
+.offesrs .price-box .head-price-box h2 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.offesrs .price-box .head-price-box .best-offer {
+    position: relative;
+    background-color: #1C4C93;
+    padding: 20px;
+    border-radius: 40px;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    width: 70px;
+    top: -52px;
+    left: 240px;
+    margin-bottom: -71px;
+}
+
+.offesrs .price-box ul li {
+    padding: 15px;
+    background-color: rgba(204, 204, 204, .07);
+    border-bottom: 2px solid rgba(0, 0, 0, .07);
+    border-left: 2px solid rgba(0, 0, 0, .07);
+    border-right: 2px solid rgba(0, 0, 0, .07);
+}
+
+.offesrs .price-box ul .dif {
+    background-color: rgba(0, 0, 0, .07);
+}
+
+.offesrs .price-box ul li span {
+    float: right;
+}
+
+.offesrs .price-box .order-btn {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 33.333333333%;
+}
+
+.offesrs .price-box .btn1 {
+    border: 1px solid #000;
+    background-color: #FFF;
+}
+
+.offesrs .price-box .btn1:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+@media(max-width:767px) {
+    .offesrs {
+        margin-top: 450px;
+    }
+    .offesrs .price-box .head-price-box .best-offer {
+        top: -45px;
+        left: 200px;
+        margin-bottom: -65px;
+    }
+}
+
+
+/* End price-box */
+
+
+/* End offers */
+
+
+/* End Home */
+
+
+/********************************************************************/
+
+
+/* Start About us */
+
+
+/* Start header */
+
+.header-about .carousel-inner .item .carousel-caption .col-xs-offset-6 {
+    margin-left: 45%;
+}
+
+
+/* End header */
+
+
+/*--------------------*/
+
+
+/* Start According */
+
+.according {
+    background-image: url(../img/bgn-testimonials-02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -5px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+/* Start The Section Upper According */
+
+.according .not-according {
+    font-size: 20px;
+}
+
+.according .h1 {
+    font-size: 50px;
+}
+
+.according h2 span {
+    display: block;
+    color: #30b2d2;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.according h2+p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.according hr {
+    height: 2px;
+    width: 60px;
+    background-color: #1c4c93;
+    margin-top: 15px;
+}
+
+
+/* End The Section Upper According */
+
+
+/* Start Main According */
+
+.according-bars {
+    margin-top: 55px;
+}
+
+.according .according-bars .bar {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.according .according-bars .bar .according-head {
+    background-color: rgba(0, 0, 0, .07);
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.according-bars .according-head:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    color: #30b2d2;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.according-bars .according-content {
+    padding: 20px;
+    margin: 0;
+    background-color: rgba(0, 0, 0, .07);
+    display: none;
+}
+
+
+/* End Main According */
+
+
+/* Start According Active*/
+
+.according .according-bars .bar .according-active {
+    background-color: rgb(48, 178, 210);
+    color: #FFF;
+}
+
+.according .according-bars .bar .according-active:after {
+    content: "\e113";
+    color: #FFF;
+    background-color: #207e95;
+    padding: 13px;
+    position: relative;
+    top: -14px;
+    left: 14px;
+    font-size: 17px;
+    -webkit-transition: padding 0.2s ease-in-out;
+    -moz-transition: padding 0.2s ease-in-out;
+    -o-transition: padding 0.2s ease-in-out;
+    transition: padding 0.2s ease-in-out;
+}
+
+
+/* End According Active*/
+
+
+/* Start Media According */
+
+
+/* Smart Phones */
+
+@media(max-width:767px) {
+    .according {
+        background-image: none !important;
+        background-color: #E8ECEF !important;
+        padding-bottom: 50px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    .according .bar .according-head {
+        font-size: 11px !important;
+    }
+    .according .according-bars .bar .according-active:after {
+        padding: 11px !important;
+        top: -15px !important;
+        left: 15px !important;
+    }
+}
+
+
+/* Small Screen */
+
+@media(min-width:768px) and (max-width:991px) {
+    .according {
+        background-image: none !important;
+        background-color: #E8ECEF !important;
+        padding-bottom: 50px !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+}
+
+
+/* End Media According */
+
+
+/* End According */
+
+
+/* End About us */
+
+
+/***********************************************************************/
+
+
+/* Start Service */
+
+.numbers-aya .container .row .colume-icon {
+    margin-bottom: 50px;
+}
+
+.numbers-aya .num-content .num-service {
+    border: 3px solid #30b2d2;
+    width: 150px;
+    height: 150px;
+    margin: 30px auto;
+    border-radius: 50%;
+    padding: 45px;
+}
+
+.numbers-aya .num-content .progress {
+    height: 7px;
+    margin-bottom: 25px;
+    background-color: #CCC;
+}
+
+
+/* End Service */
+
+
+/***********************************************************************/
+
+
+/* Strat Contact us */
+
+.contact-us {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.contact-us .contact-header {
+    width: 60%;
+}
+
+.contact-us .contact-header h2 {
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.contact-us .contact-header hr {
+    width: 60px;
+    background-color: #1C4C93;
+    height: 2px;
+}
+
+.contact-us .contact-header h2 span {
+    color: #30b2d2;
+    font-weight: 1000;
+}
+
+
+/* Start Form */
+
+.contact-us .contact-form {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.contact-us .contact-form input,
+.contact-us .contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    background-color: #dedddd;
+    border: 2px solid #CCC;
+    font-size: 16px;
+}
+
+.contact-us .contact-form textarea {
+    height: 200px;
+}
+
+.contact-us .contact-form .btn-form {
+    padding: 10px 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media(max-width:767px) {
+    .contact-us .contact-header {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+    .contact-us .contact-header hr {
+        margin: auto;
+    }
+}
+
+
+/* End Form */
+
+
+/* End Contact us */
