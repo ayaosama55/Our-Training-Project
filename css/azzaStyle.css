@@ -280,6 +280,10 @@
     }
     
     @media(max-width:767px) {
+        .services-working .head-services-working h2,
+        .home-engy .container .testimonials .engy-c {
+            font-size: 35px;
+        }
         .services-working .body-services-working .contain-services {
             width: 100% !important;
             float: none;
@@ -292,7 +296,7 @@
         }
         .services-working .body-services-working .contain-services .servicy .icon {
             width: 25%;
-            padding-left: 25px;
+            padding-left: 0px;
         }
         .services-working .body-services-working .contain-services .servicy:first-child .icon {
             width: 25%;

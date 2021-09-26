@@ -1,21 +1,69 @@
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    * {
-        margin: 0;
-        padding: 0;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -o-box-sizing: border-box;
-        box-sizing: border-box;
-    }
-    /**************contact****************/
-    
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/**************contact****************/
+
+.contacts {
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+}
+
+.contacts h4 {
+    color: #fff;
+    text-align: center;
+    font-family: Calibri Light;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+/* .contacts hr {
+height: 2px;
+border: 0;
+background-color: #3535b0;
+width: 65px;
+/* margin-left: 728px; */
+
+
+/*How!!*/
+
+
+/*  margin-top: -15px
+} */
+
+.contacts h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 2px;
+}
+
+.contacts p {
+    text-align: center;
+    font-family: Calibri Light;
+    color: #fff;
+    padding-bottom: 32px;
+    font-size: 20px
+}
+
+.contacts span {
+    display: block
+}
+
+@media screen and (max-width:767px) {
     .contacts {
         background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
     }
-    
     .contacts h4 {
         color: #fff;
         text-align: center;
@@ -23,71 +71,75 @@
         padding: 15px;
         font-size: 20px;
     }
-    /* .contacts hr {
-    height: 2px;
-    border: 0;
-    background-color: #3535b0;
-    width: 65px;
-    /* margin-left: 728px; */
-    /*How!!*/
-    /*  margin-top: -15px
-} */
-    
     .contacts h2 {
         color: #fff;
         text-align: center;
+        font-family: Consolas;
         font-size: 40px;
-        margin-top: 2px;
     }
-    
     .contacts p {
         text-align: center;
         font-family: Calibri Light;
         color: #fff;
         padding-bottom: 32px;
-        font-size: 20px
+        font-size: 16px;
     }
-    
     .contacts span {
         display: block
     }
-    
-    @media screen and (max-width:767px) {
-        .contacts {
-            background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
-        }
-        .contacts h4 {
-            color: #fff;
-            text-align: center;
-            font-family: Calibri Light;
-            padding: 15px;
-            font-size: 20px;
-        }
-        .contacts h2 {
-            color: #fff;
-            text-align: center;
-            font-family: Consolas;
-            font-size: 40px;
-        }
-        .contacts p {
-            text-align: center;
-            font-family: Calibri Light;
-            color: #fff;
-            padding-bottom: 32px;
-            font-size: 16px;
-        }
-        .contacts span {
-            display: block
-        }
-    }
-    /**************appointment****************/
-    
+}
+
+
+/**************appointment****************/
+
+.appo {
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+    margin-bottom: -20px;
+    /*Abdelrahman*/
+}
+
+.appo h4 {
+    color: #fff;
+    text-align: center;
+    font-family: Calibri Light;
+    padding: 15px;
+    font-size: 20px;
+}
+
+
+/* .appo hr {
+height: 2px;
+border: 0;
+background-color: #3535b0;
+width: 65px;
+margin-left: 732px;
+margin-top: -15px
+} */
+
+.appo h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Consolas;
+    font-size: 40px;
+    margin-top: 2px;
+}
+
+.appo p {
+    text-align: center;
+    font-family: Calibri Light;
+    color: #fff;
+    padding-bottom: 32px;
+    /* font-size: 15px */
+}
+
+.appo span {
+    display: block
+}
+
+@media screen and (max-width:767px) {
     .appo {
         background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
-        margin-bottom: -20px;
-        /*Abdelrahman*/
     }
-    
     .appo h4 {
         color: #fff;
         text-align: center;
@@ -96,14 +148,13 @@
         font-size: 20px;
     }
     /* .appo hr {
-    height: 2px;
-    border: 0;
-    background-color: #3535b0;
-    width: 65px;
-    margin-left: 732px;
-    margin-top: -15px
+height: 1px;
+border: 0;
+background-color: #3535b0;
+width: 65px;
+margin-left: 732px;
+margin-top: -15px
 } */
-    
     .appo h2 {
         color: #fff;
         text-align: center;
@@ -111,75 +162,76 @@
         font-size: 40px;
         margin-top: 2px;
     }
-    
     .appo p {
         text-align: center;
         font-family: Calibri Light;
         color: #fff;
         padding-bottom: 32px;
-        /* font-size: 15px */
+        font-size: 15px
     }
-    
     .appo span {
         display: block
     }
-    
-    @media screen and (max-width:767px) {
-        .appo {
-            background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
-        }
-        .appo h4 {
-            color: #fff;
-            text-align: center;
-            font-family: Calibri Light;
-            padding: 15px;
-            font-size: 20px;
-        }
-        /* .appo hr {
-        height: 1px;
-        border: 0;
-        background-color: #3535b0;
-        width: 65px;
-        margin-left: 732px;
-        margin-top: -15px
-    } */
-        .appo h2 {
-            color: #fff;
-            text-align: center;
-            font-family: Consolas;
-            font-size: 40px;
-            margin-top: 2px;
-        }
-        .appo p {
-            text-align: center;
-            font-family: Calibri Light;
-            color: #fff;
-            padding-bottom: 32px;
-            font-size: 15px
-        }
-        .appo span {
-            display: block
-        }
-    }
-    /* esraa address ********************/
-    
+}
+
+
+/* esraa address ********************/
+
+.sectionicon {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+}
+
+.sectionicon .container .testesraa {
+    display: inline-table;
+    padding: 65px
+}
+
+.sectionicon .container .testesraa i {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 28px
+}
+
+.sectionicon .container .testesraa i:hover {
+    color: #fff;
+    transform: scale(1.0);
+    opacity: 7%;
+    border: 2px solid#fff;
+    transition: 1.5s;
+}
+
+.sectionicon .container .testesraa .addressesraa h4 {
+    font-weight: bold;
+    color: #fff
+}
+
+.sectionicon .container .testesraa .addressesraa span {
+    display: block;
+    margin-bottom: 10px
+}
+
+.sectionicon .container .testesraa .addressesraa p {
+    color: #fff;
+}
+
+@media screen and (max-width:767px) {
     .sectionicon {
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
     }
-    
     .sectionicon .container .testesraa {
-        display: inline-table;
-        padding: 65px
+        padding: 55px;
+        margin-left: 5px;
+        margin-top: -40px;
     }
-    
     .sectionicon .container .testesraa i {
         background-color: #fff;
         border-radius: 50%;
         padding: 28px
     }
-    
     .sectionicon .container .testesraa i:hover {
         color: #fff;
         transform: scale(1.0);
@@ -187,515 +239,491 @@
         border: 2px solid#fff;
         transition: 1.5s;
     }
-    
     .sectionicon .container .testesraa .addressesraa h4 {
         font-weight: bold;
         color: #fff
     }
-    
     .sectionicon .container .testesraa .addressesraa span {
         display: block;
         margin-bottom: 10px
     }
-    
     .sectionicon .container .testesraa .addressesraa p {
         color: #fff;
     }
-    
-    @media screen and (max-width:767px) {
-        .sectionicon {
-            padding-top: 30px;
-            padding-bottom: 30px;
-            background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
-        }
-        .sectionicon .container .testesraa {
-            padding: 55px;
-            margin-left: 5px;
-            margin-top: -40px;
-        }
-        .sectionicon .container .testesraa i {
-            background-color: #fff;
-            border-radius: 50%;
-            padding: 28px
-        }
-        .sectionicon .container .testesraa i:hover {
-            color: #fff;
-            transform: scale(1.0);
-            opacity: 7%;
-            border: 2px solid#fff;
-            transition: 1.5s;
-        }
-        .sectionicon .container .testesraa .addressesraa h4 {
-            font-weight: bold;
-            color: #fff
-        }
-        .sectionicon .container .testesraa .addressesraa span {
-            display: block;
-            margin-bottom: 10px
-        }
-        .sectionicon .container .testesraa .addressesraa p {
-            color: #fff;
-        }
-    }
-    /*start footer */
-    
-    .esraafooter {
-        background-color: #dfdbdb;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    
+}
+
+
+/*start footer */
+
+.esraafooter {
+    background-color: #dfdbdb;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.esraafooter .container .imagefooter {
+    width: 25%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.esraafooter .container .imagefooter img {
+    width: 85%;
+}
+
+.esraafooter .container hr {
+    background-color: #c7bfbf;
+    height: 1px;
+    border: 0;
+}
+
+.esraafooter .container .esraaiconface {
+    width: 27%;
+    float: left;
+}
+
+.esraafooter .container .esraaiconface h3 {
+    color: #807773;
+    font-size: 33px;
+    font-family: Calibri Light
+}
+
+.esraafooter .container .esraaiconface .iconsend {
+    border: 2px solid rgba(255, 255, 255, 0.01);
+    cursor: pointer;
+}
+
+.esraafooter .container .esraaiconface .iconsend i {
+    display: block;
+    width: 11%;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.esraafooter .container .esraaiconface .iconsend :first-child {
+    color: #ffffff;
+    background: #909090;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaiconface .iconsend :first-child:hover {
+    color: #909090;
+    background: #ffffff;
+    transition: 0.3s;
+    border: 2px solid#909090;
+}
+
+.esraafooter .container .esraaiconface .iconsend :nth-of-type(2) {
+    color: #ffffff;
+    background: #30b2d2;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaiconface .iconsend :nth-of-type(2):hover {
+    color: #30b2d2;
+    background: #ffffff;
+    transition: 0.3s;
+    border: 2px solid#30b2d2;
+}
+
+.esraafooter .container .esraaiconface .iconsend :nth-of-type(3) {
+    color: #ffffff;
+    background: #1c4c93;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaiconface .iconsend :nth-of-type(3):hover {
+    color: #1c4c93;
+    background: #ffffff;
+    border: 2px solid#1c4c93;
+    transition: 0.3s;
+}
+
+.esraafooter .container .callesraa {
+    margin-top: -150px;
+    margin-left: 45px;
+}
+
+.esraafooter .container .callesraa p {
+    color: #6f6e69;
+    font-weight: lighter;
+}
+
+.esraafooter .container .callesraa span {
+    display: block;
+    font-weight: bold;
+    color: rgb(15, 15, 15)
+}
+
+.esraafooter .container .esraalinks {
+    width: 17%;
+    float: left;
+}
+
+.esraafooter .container .esraalinks h3 {
+    color: #807773;
+    font-size: 33px;
+    font-family: Calibri Light;
+}
+
+.esraafooter .container .esraalinks .esraalinkks a {
+    display: block;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 20px;
+    color: #514745;
+    font-family: Calibri Light;
+    font-weight: bold;
+}
+
+.esraafooter .container .esraalinks .esraalinkks a:hover {
+    color: #8c8c8c;
+    transition: 0.3s;
+}
+
+.esraafooter .container .esraasubmit {
+    width: 25%;
+    float: left
+}
+
+.esraafooter .container .esraasubmit h3 {
+    color: #807773;
+    font-size: 33px;
+    font-family: Calibri Light;
+}
+
+.esraafooter .container .esraasubmit .iconsubmit p {
+    color: #5d5d64;
+    font-weight: lighter;
+}
+
+.esraafooter .container .esraasubmit .iconsubmit .space {
+    height: 10px;
+}
+
+.esraafooter .container .esraasubmit .iconsubmit form input[type="email"] {
+    font-family: Calibri Light;
+    background-color: #d0d5d9;
+    border: 2px solid #d0d5d9;
+    font-size: 15px;
+    border-radius: 4px;
+    color: #000000;
+    font-weight: bold;
+    padding: 15px 10px;
+    width: 95%
+}
+
+.esraafooter .container .esraasubmit .iconsubmit form input[type="email"]:hover {
+    border: 2px solid #30b2d2;
+}
+
+.esraafooter .container .esraasubmit .iconsubmit form input[type="submit"] {
+    width: 95%;
+    font-family: Calibri Light;
+    cursor: pointer;
+    background: #1c4c93;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 10px;
+    font-size: 16px
+}
+
+.esraafooter .container .esraasubmit .iconsubmit form input[type="submit"]:hover {
+    background: #497ecc;
+    transition: 0.3s;
+}
+
+.esraafooter .container .esraaicontwitter {
+    width: 28%;
+    float: left;
+    margin-left: 33px;
+}
+
+.esraafooter .container .esraaicontwitter h3 {
+    color: #807773;
+    font-size: 33px;
+    font-family: Calibri Light
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta i {
+    display: block;
+    width: 12%;
+    padding: 12px;
+    margin-top: 20px;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :first-child {
+    color: #ffffff;
+    background: #909090;
+    border-radius: 50%
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :first-child:hover {
+    color: #909090;
+    background: #ffffff;
+    transition: 0.3s;
+    border: 2px solid#909090;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(2) {
+    color: #ffffff;
+    background: #30b2d2;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(2):hover {
+    color: #30b2d2;
+    background: #ffffff;
+    transition: 0.3s;
+    border: 2px solid#30b2d2;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(3) {
+    color: #ffffff;
+    background: #1c4c93;
+    border-radius: 50%;
+}
+
+.esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(3):hover {
+    color: #1c4c93;
+    background: #ffffff;
+    border: 2px solid#1c4c93;
+    transition: 0.3s;
+}
+
+.esraafooter .container .instagramesraa {
+    margin-top: -150px;
+    margin-left: 45px;
+}
+
+.esraafooter .container .instagramesraa p {
+    color: #6f6e69;
+    font-weight: lighter;
+}
+
+.esraafooter .container .instagramesraa span {
+    display: block;
+    font-weight: bold;
+    color: rgb(15, 15, 15)
+}
+
+.end_footer {
+    background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
+    padding: 10px;
+    overflow: hidden
+}
+
+.end_footer .copy {
+    color: #fff;
+    font-family: Calibri Light;
+    /* margin-left: 200px; */
+    margin-top: 20px;
+    width: 47%;
+}
+
+.end_footer .lin {
+    width: 47%;
+    float: right;
+}
+
+.end_footer .lin .links {
+    text-transform: uppercase;
+    list-style: none;
+    /* margin-left: 805px; */
+    margin-top: -60px
+}
+
+.end_footer .lin .links li {
+    float: left;
+    padding: 30px;
+    padding-top: 11px;
+    font-size: 21px;
+}
+
+.end_footer .lin .links li a {
+    color: #ffff;
+    font-family: Calibri Light;
+    text-decoration: none;
+}
+
+.end_footer .lin .links li a:hover {
+    color: #ffdcdd
+}
+
+
+/*end footer*/
+
+
+/* hr modify by abdelrahman*/
+
+.hr-editing {
+    height: 2px;
+    border: none;
+    background-color: #3535b0;
+    width: 65px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+
+/* hr modify by abdelrahman*/
+
+
+/* Start Responsive Footer  */
+
+@media screen and (max-width:767px) {
     .esraafooter .container .imagefooter {
-        width: 25%;
-        margin: auto;
-        padding-bottom: 10px;
+        width: 40% !important;
     }
-    
-    .esraafooter .container .imagefooter img {
-        width: 85%;
-    }
-    
     .esraafooter .container hr {
-        background-color: #c7bfbf;
-        height: 1px;
-        border: 0;
+        height: 2px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: -25px !important;
     }
-    
-    .esraafooter .container .esraaiconface {
-        width: 27%;
-        float: left;
-    }
-    
-    .esraafooter .container .esraaiconface h3 {
-        color: #807773;
-        font-size: 33px;
-        font-family: Calibri Light
-    }
-    
-    .esraafooter .container .esraaiconface .iconsend {
-        border: 2px solid rgba(255, 255, 255, 0.01);
-        cursor: pointer;
-    }
-    
-    .esraafooter .container .esraaiconface .iconsend i {
-        display: block;
-        width: 11%;
-        padding: 12px;
-        margin-top: 20px;
-    }
-    
-    .esraafooter .container .esraaiconface .iconsend :first-child {
-        color: #ffffff;
-        background: #909090;
-        border-radius: 50%;
-    }
-    
-    .esraafooter .container .esraaiconface .iconsend :first-child:hover {
-        color: #909090;
-        background: #ffffff;
-        transition: 0.3s;
-        border: 2px solid#909090;
-    }
-    
-    .esraafooter .container .esraaiconface .iconsend :nth-of-type(2) {
-        color: #ffffff;
-        background: #30b2d2;
-        border-radius: 50%;
-    }
-    
-    .esraafooter .container .esraaiconface .iconsend :nth-of-type(2):hover {
-        color: #30b2d2;
-        background: #ffffff;
-        transition: 0.3s;
-        border: 2px solid#30b2d2;
-    }
-    
-    .esraafooter .container .esraaiconface .iconsend :nth-of-type(3) {
-        color: #ffffff;
-        background: #1c4c93;
-        border-radius: 50%;
-    }
-    
-    .esraafooter .container .esraaiconface .iconsend :nth-of-type(3):hover {
-        color: #1c4c93;
-        background: #ffffff;
-        border: 2px solid#1c4c93;
-        transition: 0.3s;
-    }
-    
-    .esraafooter .container .callesraa {
-        margin-top: -150px;
-        margin-left: 45px;
-    }
-    
-    .esraafooter .container .callesraa p {
-        color: #6f6e69;
-        font-weight: lighter;
-    }
-    
-    .esraafooter .container .callesraa span {
-        display: block;
-        font-weight: bold;
-        color: rgb(15, 15, 15)
-    }
-    
-    .esraafooter .container .esraalinks {
-        width: 17%;
-        float: left;
-    }
-    
-    .esraafooter .container .esraalinks h3 {
-        color: #807773;
-        font-size: 33px;
-        font-family: Calibri Light;
-    }
-    
-    .esraafooter .container .esraalinks .esraalinkks a {
-        display: block;
-        text-decoration: none;
-        padding: 7px;
-        font-size: 20px;
-        color: #514745;
-        font-family: Calibri Light;
-        font-weight: bold;
-    }
-    
-    .esraafooter .container .esraalinks .esraalinkks a:hover {
-        color: #8c8c8c;
-        transition: 0.3s;
-    }
-    
-    .esraafooter .container .esraasubmit {
-        width: 25%;
-        float: left
-    }
-    
-    .esraafooter .container .esraasubmit h3 {
-        color: #807773;
-        font-size: 33px;
-        font-family: Calibri Light;
-    }
-    
-    .esraafooter .container .esraasubmit .iconsubmit p {
-        color: #5d5d64;
-        font-weight: lighter;
-    }
-    
-    .esraafooter .container .esraasubmit .iconsubmit .space {
-        height: 10px;
-    }
-    
-    .esraafooter .container .esraasubmit .iconsubmit form input[type="email"] {
-        font-family: Calibri Light;
-        background-color: #d0d5d9;
-        border: 2px solid #d0d5d9;
-        font-size: 15px;
-        border-radius: 4px;
-        color: #000000;
-        font-weight: bold;
-        padding: 15px 10px;
-        width: 95%
-    }
-    
-    .esraafooter .container .esraasubmit .iconsubmit form input[type="email"]:hover {
-        border: 2px solid #30b2d2;
-    }
-    
-    .esraafooter .container .esraasubmit .iconsubmit form input[type="submit"] {
-        width: 95%;
-        font-family: Calibri Light;
-        cursor: pointer;
-        background: #1c4c93;
-        border: none;
-        border-radius: 4px;
-        color: #fff;
-        font-weight: bold;
-        padding: 15px 10px;
-        font-size: 16px
-    }
-    
-    .esraafooter .container .esraasubmit .iconsubmit form input[type="submit"]:hover {
-        background: #497ecc;
-        transition: 0.3s;
-    }
-    
+    .esraafooter .container .esraaiconface,
+    .esraafooter .container .esraalinks,
+    .esraafooter .container .esraasubmit,
     .esraafooter .container .esraaicontwitter {
-        width: 28%;
-        float: left;
-        margin-left: 33px;
+        width: 90%;
+        float: none;
+        margin: auto;
+        text-align: center;
+        padding-top: 40px;
     }
-    
-    .esraafooter .container .esraaicontwitter h3 {
-        color: #807773;
-        font-size: 33px;
-        font-family: Calibri Light
-    }
-    
+    .esraafooter .container .esraaiconface .iconsend i,
     .esraafooter .container .esraaicontwitter .iconinsta i {
-        display: block;
-        width: 12%;
-        padding: 12px;
-        margin-top: 20px;
+        margin-left: 40px;
+        margin-top: 30px;
     }
-    
-    .esraafooter .container .esraaicontwitter .iconinsta :first-child {
-        color: #ffffff;
-        background: #909090;
-        border-radius: 50%
+    .esraafooter .container .callesraa,
+    .esraafooter .container .esraaicontwitter .instagramesraa {
+        margin-top: -178px;
     }
-    
-    .esraafooter .container .esraaicontwitter .iconinsta :first-child:hover {
-        color: #909090;
-        background: #ffffff;
-        transition: 0.3s;
-        border: 2px solid#909090;
+    .esraafooter .container .callesraa p,
+    .esraafooter .container .esraaicontwitter .instagramesraa p {
+        margin-bottom: 30px;
     }
-    
-    .esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(2) {
-        color: #ffffff;
-        background: #30b2d2;
-        border-radius: 50%;
-    }
-    
-    .esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(2):hover {
-        color: #30b2d2;
-        background: #ffffff;
-        transition: 0.3s;
-        border: 2px solid#30b2d2;
-    }
-    
-    .esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(3) {
-        color: #ffffff;
-        background: #1c4c93;
-        border-radius: 50%;
-    }
-    
-    .esraafooter .container .esraaicontwitter .iconinsta :nth-of-type(3):hover {
-        color: #1c4c93;
-        background: #ffffff;
-        border: 2px solid#1c4c93;
-        transition: 0.3s;
-    }
-    
-    .esraafooter .container .instagramesraa {
-        margin-top: -150px;
-        margin-left: 45px;
-    }
-    
-    .esraafooter .container .instagramesraa p {
-        color: #6f6e69;
-        font-weight: lighter;
-    }
-    
-    .esraafooter .container .instagramesraa span {
-        display: block;
+    .esraafooter .container .esraaiconface h3,
+    .esraafooter .container .esraalinks h3,
+    .esraafooter .container .esraasubmit h3 {
+        font-size: 40px;
         font-weight: bold;
-        color: rgb(15, 15, 15)
     }
-    
+    .esraafooter .container .esraalinks .esraalinkks a {
+        font-size: 23px;
+    }
     .end_footer {
-        background: linear-gradient(to right, rgba(130, 190, 66, 1) 0%, rgba(48, 178, 210, 1) 50%, rgba(28, 76, 147, 1) 100%);
-        padding: 10px;
-        overflow: hidden
+        overflow: visible !important;
+        margin-top: -30px;
+        padding-top: 0px;
     }
-    
+    .end_footer .lin {
+        width: 100% !important;
+        float: none;
+    }
     .end_footer .copy {
         color: #fff;
-        font-family: Calibri Light;
-        /* margin-left: 200px; */
-        margin-top: 20px;
-        width: 47%;
-    }
-    
-    .end_footer .lin {
-        width: 47%;
-        float: right;
-    }
-    
-    .end_footer .lin .links {
-        text-transform: uppercase;
-        list-style: none;
-        /* margin-left: 805px; */
-        margin-top: -60px
-    }
-    
-    .end_footer .lin .links li {
-        float: left;
-        padding: 30px;
-        padding-top: 11px;
-        font-size: 21px;
-    }
-    
-    .end_footer .lin .links li a {
-        color: #ffff;
-        font-family: Calibri Light;
-        text-decoration: none;
-    }
-    
-    .end_footer .lin .links li a:hover {
-        color: #ffdcdd
-    }
-    /*end footer*/
-    /* hr modify by abdelrahman*/
-    
-    .hr-editing {
-        height: 2px;
-        border: none;
-        background-color: #3535b0;
-        width: 65px;
         margin: auto;
-        margin-bottom: 20px;
+        margin-top: 20px;
+        width: 95%;
+        font-family: Arial, Helvetica, sans-serif;
     }
-    /* hr modify by abdelrahman*/
-    /* Start Responsive Footer  */
-    
-    @media screen and (max-width:767px) {
-        .esraafooter .container .imagefooter {
-            width: 40% !important;
-        }
-        .esraafooter .container hr {
-            height: 2px;
-            width: 90%;
-            margin: auto;
-            margin-bottom: -25px !important;
-        }
-        .esraafooter .container .esraaiconface,
-        .esraafooter .container .esraalinks,
-        .esraafooter .container .esraasubmit,
-        .esraafooter .container .esraaicontwitter {
-            width: 90%;
-            float: none;
-            margin: auto;
-            text-align: center;
-            padding-top: 40px;
-        }
-        .esraafooter .container .esraaiconface .iconsend i,
-        .esraafooter .container .esraaicontwitter .iconinsta i {
-            margin-left: 60px;
-            margin-top: 30px;
-        }
-        .esraafooter .container .callesraa,
-        .esraafooter .container .esraaicontwitter .instagramesraa {
-            margin-top: -178px;
-        }
-        .esraafooter .container .callesraa p,
-        .esraafooter .container .esraaicontwitter .instagramesraa p {
-            margin-bottom: 30px;
-        }
-        .esraafooter .container .esraaiconface h3,
-        .esraafooter .container .esraalinks h3,
-        .esraafooter .container .esraasubmit h3 {
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .esraafooter .container .esraalinks .esraalinkks a {
-            font-size: 23px;
-        }
-        .end_footer {
-            overflow: visible !important;
-            margin-top: -30px;
-            padding-top: 0px;
-        }
-        .end_footer .lin {
-            width: 100% !important;
-            float: none;
-        }
-        .end_footer .copy {
-            color: #fff;
-            margin: auto;
-            margin-top: 20px;
-            width: 95%;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .end_footer .lin .links {
-            margin-left: 0px;
-            margin-top: 0px;
-        }
-        .end_footer .lin .links li {
-            padding-left: 20px;
-            padding-top: 0px;
-            padding-bottom: 5px;
-            font-size: 16px;
-        }
+    .end_footer .lin .links {
+        margin-left: 0px;
+        margin-top: 0px;
     }
-    
-    @media(min-width:768px) and (max-width:991px) {
-        .esraafooter .container .imagefooter {
-            width: 40% !important;
-        }
-        .esraafooter .container hr {
-            height: 2px;
-            width: 90%;
-            margin: auto;
-            margin-bottom: -25px !important;
-        }
-        .esraafooter .container .esraaiconface,
-        .esraafooter .container .esraalinks,
-        .esraafooter .container .esraasubmit,
-        .esraafooter .container .esraaicontwitter {
-            width: 49% !important;
-            float: left !important;
-            margin: auto !important;
-            text-align: center;
-            padding-top: 40px;
-        }
-        .esraafooter .container .esraasubmit {
-            position: relative;
-            right: 50%;
-            top: 20px
-        }
-        .esraafooter .container .esraaicontwitter {
-            position: relative;
-            top: -260px;
-            left: 52%;
-        }
-        .esraafooter .container .esraaiconface .iconsend i,
-        .esraafooter .container .esraaicontwitter .iconinsta i {
-            margin-left: 50px;
-            margin-top: 30px;
-        }
-        .esraafooter .container .callesraa,
-        .esraafooter .container .esraaicontwitter .instagramesraa {
-            margin-top: -178px;
-        }
-        .esraafooter .container .callesraa p,
-        .esraafooter .container .esraaicontwitter .instagramesraa p {
-            margin-bottom: 30px;
-        }
-        .esraafooter .container .esraaiconface h3,
-        .esraafooter .container .esraalinks h3,
-        .esraafooter .container .esraasubmit h3,
-        .esraafooter .container .esraaicontwitter h3 {
-            font-size: 40px;
-            font-weight: bold;
-        }
-        .esraafooter .container .esraalinks .esraalinkks a {
-            font-size: 23px;
-        }
-        .end_footer {
-            overflow: visible !important;
-            padding-top: 0px;
-        }
-        .end_footer .lin {
-            width: 100% !important;
-            float: none;
-        }
-        .end_footer .copy {
-            color: #fff;
-            margin: auto;
-            margin-top: 20px;
-            width: 95%;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        .end_footer .lin .links {
-            margin-left: 0px;
-            margin-top: 0px;
-        }
-        .end_footer .lin .links li {
-            padding-left: 20px;
-            padding-top: 0px;
-            padding-bottom: 5px;
-            font-size: 16px;
-        }
+    .end_footer .lin .links li {
+        padding-left: 20px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+        font-size: 16px;
     }
-    /* End Responsive Footer  */
+}
+
+@media(min-width:768px) and (max-width:991px) {
+    .esraafooter .container .imagefooter {
+        width: 40% !important;
+    }
+    .esraafooter .container hr {
+        height: 2px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: -25px !important;
+    }
+    .esraafooter .container .esraaiconface,
+    .esraafooter .container .esraalinks,
+    .esraafooter .container .esraasubmit,
+    .esraafooter .container .esraaicontwitter {
+        width: 49% !important;
+        float: left !important;
+        margin: auto !important;
+        text-align: center;
+        padding-top: 40px;
+    }
+    .esraafooter .container .esraasubmit {
+        position: relative;
+        right: 50%;
+        top: 20px
+    }
+    .esraafooter .container .esraaicontwitter {
+        position: relative;
+        top: -260px;
+        left: 52%;
+    }
+    .esraafooter .container .esraaiconface .iconsend i,
+    .esraafooter .container .esraaicontwitter .iconinsta i {
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    .esraafooter .container .callesraa,
+    .esraafooter .container .esraaicontwitter .instagramesraa {
+        margin-top: -178px;
+    }
+    .esraafooter .container .callesraa p,
+    .esraafooter .container .esraaicontwitter .instagramesraa p {
+        margin-bottom: 30px;
+    }
+    .esraafooter .container .esraaiconface h3,
+    .esraafooter .container .esraalinks h3,
+    .esraafooter .container .esraasubmit h3,
+    .esraafooter .container .esraaicontwitter h3 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .esraafooter .container .esraalinks .esraalinkks a {
+        font-size: 23px;
+    }
+    .end_footer {
+        overflow: visible !important;
+        padding-top: 0px;
+    }
+    .end_footer .lin {
+        width: 100% !important;
+        float: none;
+    }
+    .end_footer .copy {
+        color: #fff;
+        margin: auto;
+        margin-top: 20px;
+        width: 95%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .end_footer .copy p {
+        font-size: 12px;
+    }
+    .end_footer .lin .links {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .end_footer .lin .links li {
+        padding-left: 10px;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+}
+
+
+/* End Responsive Footer  */
