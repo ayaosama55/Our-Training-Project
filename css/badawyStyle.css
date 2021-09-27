@@ -414,6 +414,9 @@
         top: -15px !important;
         left: 15px !important;
     }
+    .according .not-according {
+        font-size: 16px;
+    }
 }
 
 

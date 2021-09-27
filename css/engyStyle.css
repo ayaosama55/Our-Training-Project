@@ -287,7 +287,8 @@ outline: 1px solid #999;
 }
 
 .app-engy {
-    margin-left: 50%;
+    margin-right: 10%;
+    float: right;
 }
 
 .appointment .app-engy .words .p14 {
@@ -308,7 +309,7 @@ outline: 1px solid #999;
 }
 
 .appointment .app-engy .form input {
-    width: 50%;
+    width: 100%;
     margin-bottom: 10px;
     padding: 10px;
     background-color: #dedddd;

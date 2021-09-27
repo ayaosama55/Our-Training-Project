@@ -300,6 +300,12 @@ body {
     .doc-about-aya {
         padding-top: 210px;
     }
+    .OurDoctors .content h2,
+    .numbers-aya .content h2,
+    .according .h1,
+    .our-services-aya .head-services-content h2 {
+        font-size: 35px !important;
+    }
 }
 
 
@@ -580,7 +586,7 @@ body {
         margin-bottom: 5px
     }
     .our-services-aya .services-content .service .media-body p {
-        font-size: 16px;
+        font-size: 10px;
         line-height: 1.2;
     }
     .our-services-aya .head-services-content h2 {
@@ -638,6 +644,13 @@ body {
     cursor: pointer;
 }
 
+.our-developer .overlay .container .head-devel {
+    color: #30b2d2;
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
 .our-developer {
     min-height: 550px;
     background-image: url("../img/bfcai.jpg");
@@ -649,7 +662,7 @@ body {
 .our-developer .overlay {
     padding: 70px 0;
     min-height: 550px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .our-developer .item .tes-img {
@@ -685,16 +698,21 @@ body {
     bottom: -60px;
 }
 
+.our-developer .overlay .container .carousel-indicators li {
+    border: 1px solid #FFF !important;
+}
+
 @media (max-width:550px) {
     .testimonial .item p {
         font-size: 17px;
     }
-}
-
-.carousel-indicators li {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-.our-developer .carousel .carousel-indicators {
-    bottom: -40px !important;
+    .our-developer .overlay .container .head-devel {
+        font-size: 40px;
+    }
+    .carousel-indicators li {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .our-developer .carousel .carousel-indicators {
+        bottom: -40px !important;
+    }
 }

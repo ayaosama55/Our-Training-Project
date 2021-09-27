@@ -61,6 +61,27 @@ $(document).ready(function() {
         $(this).next().removeClass("hide");
     });
 
+    var scrollTop = $("#scrollTop");
+
+    $(window).scroll(function() {
+
+        console.log($(this).scrollTop());
+
+        if ($(this).scrollTop() >= 700) {
+
+            scrollTop.show();
+
+        } else {
+
+            scrollTop.hide();
+        }
+
+    });
+
+    scrollTop.click(function() {
+        $("html,body").animate({ scrollTop: 0 }, 600);
+
+    });
 });
 
 $('.carousel').carousel({

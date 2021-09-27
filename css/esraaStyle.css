@@ -725,5 +725,14 @@ margin-top: -15px
     }
 }
 
+@media (max-width: 767px) {
+    .sectionicon .container .testesraa {
+        width: 40%;
+        padding: 0px;
+        margin-left: 8%;
+        margin-top: 10px;
+    }
+}
+
 
 /* End Responsive Footer  */
